@@ -87,9 +87,17 @@
 <li class="toctree-l1"><a class="reference internal" href="../Pre_Class/index.html">1. 课前准备</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">2. 编程的逻辑：以python快速入门为例</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#id1">2.1. 生物相关工程的“就业窘境”</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id2">2.2. 为什么要学习计算生物学</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">2.2. 为什么要学习计算生物学</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">2.2.1. 生信和计算生物学是未来科研工作者必备的技能。</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id4">2.2.1.1. 生物系统是非常复杂、多变的系统，认知其规律，需要计算生物学</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">2.2.1.2. 日常实验，需要计算生物学做设计与分析</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">2.2.2. 生物信息学与计算生物学是我们必备的技能，但不能是唯一的技能</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#snapgene">2.3. 从Snapgene开始: 我不再是“吹起来天下无敌，做起来无能为力”的生物人</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">2.4. 编程的逻辑-python基本语法快速入门:我要吹，所有的编程语言都是一个样</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">2.4. 编程的逻辑-python基本语法快速入门:我要吹，所有的编程语言都是一个样</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../Class 2/index.html">3. 我的第一款软件：我要强大到自我膨胀</a></li>
@@ -166,13 +174,40 @@
 </div>
 <div class="section" id="id2">
 <h2><span class="section-number">2.2. </span>为什么要学习计算生物学<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<p>（正在筹备上线）</p>
+<div class="section" id="id3">
+<h3><span class="section-number">2.2.1. </span>生信和计算生物学是未来科研工作者必备的技能。<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id4">
+<h4><span class="section-number">2.2.1.1. </span>生物系统是非常复杂、多变的系统，认知其规律，需要计算生物学<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<p>选择知乎上一位网友的答案：
+作者：Yang Liu
+链接：<a class="reference external" href="https://www.zhihu.com/question/268753897/answer/343477528">https://www.zhihu.com/question/268753897/answer/343477528</a>
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+<ol class="arabic simple">
+<li><p>合成生物学注重定量描述，定量数据收集需要计算机合成生物学与传统基因工程相比，最大的不同点在于定量基础上的通用平台构建。换言之，传统基因工程是以实现某种生物学功能为目的，对基因进行改造的工程学科。而合成生物学致力于找出基因行为以及对基因进行工程改造的各种基本规律，并在这些规律的基础上，有的放矢地、理性地（rational design）设计基因元件或基因线路并实现相应生物学功能。上述区别决定了合成生物学对定量描述的需要以及合成生物学与系统生物学、定量生物学的紧密关系。要想总结基因行为以及对基因进行工程改造的各种基本规律，首先就要对基因的行为及行为规律进行抽象，再归纳成模型。比如一个开启基因表达的启动子，它的开启强度有多强、其功能与RNA聚合酶浓度之间的关系如何、是否受到其它分子控制等等，都需要进行定量研究，并依据数据抽象成简化的模型，以便于运用这些规律去解决不同情境下的问题，帮助人们理解复杂系统下关键因素对基因行为的影响。要想得到可靠的规律，就需要高质量的定量数据。这些数据显然不是人类有办法通过机械手段直接获得的，荧光蛋白的浓度有多高，细胞的尺寸有多大，细胞与细胞之间的差异化程度，凭借肉眼看、掰手指数肯定无法获得精确的结果。因此计算机需要对各种仪器的信号进行处理，从而获得各种可靠的定量数据。</p></li>
+<li><p>合成生物学注重模拟与预测，模型构建和运算需要计算机前面提到，合成生物学特别重视规律的总结和通用平台构建，并在此基础上追求理性设计。要总结规律，光靠计算机得到各类数据显然是不够的，还要对数据进行分析。生物系统是耗散结构，非线性动力学系统，基因的行为规律往往受到复杂因素影响，那么如何把繁复的数据中的规律提取出来，构建出合适的模型？显然肉眼看，靠珠算是不行的。计算机可以帮助人们分析数据并从中找出各种规律，搭建数学模型。计算机还可以通过计算人为设定参数下的数学模型去模拟尚未在实验室中实现的“假设状况”，从而为可预测地设计基因元件或线路提供参考依据，再到实验室中有方向地做实验对模型预测的结果进行验证，不断优化模型。如此反复，从而获得越来越高的理性设计能力。这些过程都依赖于计算机的运算功能。</p></li>
+<li><p>合成生物学依赖高通量数据，高通量数据的处理需要计算机设计一定是基于可靠的规则。设计一座建筑，必须按照力学规律，否则就有可能无法成功搭建。基因及基因线路的设计也是一样的，没有可靠的规则，就没有理性设计可言。区别在于生物系统中基因的行为规律，远远比宏观力学规律复杂得多。当面对生物系统这种复杂系统时，我们还无法用非常简单的规律去描述。这也意味着还有大量的规律需要不断被发现和总结。从复杂系统中总结规律，往往需要海量数据。这些数据的存储、统计、使用都无法用传统方法搞定。唯有计算机能够胜任。当然，在科学研究中所有涉及海量数据的情形都需要计算机，这也不是合成生物学特有的需求。</p></li>
+<li><p>合成生物学的自动化趋势，自动化平台的控制需要计算机现在人们常说生物学民工，说的就是上述海量数据的获取方法。海量数据如何获得是一个问题。对于没钱没设备的实验室而言，最廉价的方式就是通过人力投入获得海量数据。当然这种策略不可能永远不被革新，因此科学家也在尝试开发各种各样的自动化平台投入合成生物学研究。这类自动化平台可以在计算机的控制下，全自动或半自动地完成基因合成、细胞培养、筛选、保藏、定量检测等等工作。小到一片微流体芯片，大到整个分子生物学工作站，都依赖于特定的程序和算法运行。这些领域需要大量的计算机和计算机编程人才。</p></li>
+<li><p>合成生物学与机器学习，机器学习需要计算机合成生物学既然重视理性设计，重视基因行为的可预测性，那么机器学习必然成为重要工具。机器学习运用于生物学并不是什么新闻，但是合成生物学领域对机器学习的需求不可小觑。机器学习的模式识别能力对于复杂系统的行为预测有着特殊的优势。随着高质量高通量数据的获得能力越来越强，机器学习程序有望在各式各样的数据中不断被训练，进而准确预测出传统数学模型尚无法预测的基因行为。</p></li>
+</ol>
+</div>
+<div class="section" id="id5">
+<h4><span class="section-number">2.2.1.2. </span>日常实验，需要计算生物学做设计与分析<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><p>本质上，我们日常实验就是通过“量化实验”来探寻规律，创造产品。这个过程，需要建筑行业的AutoCAD、视觉行业的3D Max一样强大的辅助设计软件。</p></li>
+<li><p>目前，生物领域辅助设计几乎没有工业级别的产品。大多以零散的、开源的形式存在。因此，我们必须掌握开源语法。真正工业级别的软件，可能10-20年以后才会出现。</p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="id6">
+<h3><span class="section-number">2.2.2. </span>生物信息学与计算生物学是我们必备的技能，但不能是唯一的技能<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p style="text-align:justify; text-justify:inter-ideograph;">在一个团队中，生信和计算生物学的作用，是信息的汇总与筛选中心，提高效率的关键位置。但需要时刻铭记的是，生信专家并不是最重要的环节。最重要的环节，一直，永远，未来也还是，产生数据的关键部分，比如负责实验的环节。</p></div>
 </div>
 <div class="section" id="snapgene">
 <h2><span class="section-number">2.3. </span>从Snapgene开始: 我不再是“吹起来天下无敌，做起来无能为力”的生物人<a class="headerlink" href="#snapgene" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="id3">
-<h2><span class="section-number">2.4. </span>编程的逻辑-python基本语法快速入门:我要吹，所有的编程语言都是一个样<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id7">
+<h2><span class="section-number">2.4. </span>编程的逻辑-python基本语法快速入门:我要吹，所有的编程语言都是一个样<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
 <p>（正在筹备上线）</p>
 </div>
 </div>

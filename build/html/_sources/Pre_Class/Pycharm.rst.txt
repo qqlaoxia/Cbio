@@ -10,7 +10,7 @@ PyCharm是一种Python IDE，带有一整套可以帮助用户在使用Python语
 ------------------------------------------
 
 - 从官方网站下载软件：https://www.jetbrains.com/pycharm/download/
-- 根据此博客方法，申请免费版。提醒：必须提前有学校的邮箱（以edu.cn结尾的邮箱）
+- 根据此博客方法，申请免费版。提醒：必须提前有学校的邮箱（以edu.cn结尾的邮箱）。此博客是上海电机学院的学生。我们学校的方法相同。https://www.cnblogs.com/cripplepx/p/12310265.html
 
 
 
