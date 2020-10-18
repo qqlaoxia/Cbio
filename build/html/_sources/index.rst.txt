@@ -32,14 +32,12 @@
    Class 1/index3
    Class 2/index
 
-课前动员：为什么要学这门课
-==========================================
+.. toctree::
+   :maxdepth: 2
+   :caption: 课前动员
+   
+   Pre_Class/dongyuan
 
-.. raw:: html
-
-   <video width="100%" height="100%" controls>
-   <source src="https://outin-0fed40cae50711eaa61200163e1c94a4.oss-cn-shanghai.aliyuncs.com/sv/2ccbea9f-17539c9da20/2ccbea9f-17539c9da20.mp4" type="video/mp4" />
-   </video>
    
    
 
