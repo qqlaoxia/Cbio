@@ -31,6 +31,7 @@
    Class 1/index2
    Class 1/index3
    Class 2/index
+   Class 3/Dna Features Viewer
 
 .. toctree::
    :maxdepth: 2
