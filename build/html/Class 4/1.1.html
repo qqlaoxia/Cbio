@@ -1,0 +1,419 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>7. 7. Python生物信息随堂作业 &mdash; Cbio 1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="课前动员：为什么要学这门课（视频）" href="../Pre_Class/dongyuan.html" />
+    <link rel="prev" title="6. 分子实验自动化与智能化工具：Dna Features Viewer（不做讲解）" href="../Class 3/Dna Features Viewer.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Cbio
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Pre_Class/index.html">1. 课前准备</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Class 1/index1.html">2. 开场需要探讨的几个问题</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Class 1/index2.html">3. 从Snapgene开始: 我不再是“吹起来天下无敌，做起来无能为力”的生物人</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Class 1/index3.html">4. 编程的逻辑-python基本语法快速入门:我要吹，所有的编程语言都是一个样</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Class 2/index.html">5. 我的第一款软件：我要强大到自我膨胀</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Class 3/Dna Features Viewer.html">6. 分子实验自动化与智能化工具：Dna Features Viewer（不做讲解）</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">7. 7. Python生物信息随堂作业</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#atp">7.1. 7.1 ATP能量计算</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">7.1.1. 7.1.1 题目描述：</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">7.1.2. 7.1.2 问题解答</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">7.1.3. 7.1.3 Python运算知识总结</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">7.2. 氨基酸序列分析</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#c">7.2.1. 题目1：下面的序列中有多少C？</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">7.2.2. 题目2： 请计算出胰岛素中各个氨基酸的出现次数</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pymol">7.3. Pymol小实例（看氨基酸长什么样子）</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">课前动员</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../Pre_Class/dongyuan.html">课前动员：为什么要学这门课（视频）</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Cbio</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">7. </span>7. Python生物信息随堂作业</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/Class 4/1.1.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="python">
+<h1><span class="section-number">7. </span>7. Python生物信息随堂作业<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="atp">
+<h2><span class="section-number">7.1. </span>7.1 ATP能量计算<a class="headerlink" href="#atp" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3><span class="section-number">7.1.1. </span>7.1.1 题目描述：<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p><center>ATP→ADP+Pi</center></p><p>组织 [ATP]中的一个磷酸二酯键会产生-30.5kJ/mol标准吉布斯自由能（△Gº）。根据生物化学课本，真正的△G值依赖于化合物的浓度，化合物浓度在不同组织之间有着很大的差异。
+表1.1 在不同的组织中的化合物浓度</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 19%" />
+<col style="width: 43%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>组织</p></th>
+<th class="head"><p>[ATP][mM]</p></th>
+<th class="head"><p>[Pi][mM]</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>肝</p></td>
+<td><p>3.5</p></td>
+<td><p>1.8</p></td>
+</tr>
+<tr class="row-odd"><td><p>肌肉</p></td>
+<td><p>8.0</p></td>
+<td><p>0.9</p></td>
+</tr>
+<tr class="row-even"><td><p>脑</p></td>
+<td><p>2.6</p></td>
+<td><p>0.7</p></td>
+</tr>
+</tbody>
+</table>
+<p>那么如何计算ATP水解的真正的△G值？
+吉布斯自由能可以用与化合物浓度相关的函数表示 ：</p>
+<p><center>△G=△Gº+RT*ln（[ADP]*[Pi]）/[ATP]）</center></p></div>
+<div class="section" id="id2">
+<h3><span class="section-number">7.1.2. </span>7.1.2 问题解答<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> <span class="n">TP</span><span class="o">=</span><span class="mf">3.5</span>
+ <span class="n">ADP</span><span class="o">=</span><span class="mf">1.8</span>
+ <span class="n">Pi</span><span class="o">=</span><span class="mf">5.0</span>
+ <span class="n">R</span><span class="o">=</span><span class="mf">0.00831</span>
+ <span class="n">T</span><span class="o">=</span><span class="mi">298</span>
+ <span class="n">deltaG0</span><span class="o">=-</span><span class="mf">30.5</span>
+
+ <span class="kn">import</span> <span class="nn">math</span>
+ <span class="n">deltaG0</span><span class="o">+</span><span class="n">R</span><span class="o">*</span><span class="n">T</span><span class="o">*</span><span class="n">math</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">ADP</span><span class="o">*</span><span class="n">Pi</span><span class="o">/</span><span class="n">ATP</span><span class="p">)</span>
+<span class="c1"># 最终答案：</span>
+ <span class="o">-</span><span class="mf">28.161154161098693</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id3">
+<h3><span class="section-number">7.1.3. </span>7.1.3 Python运算知识总结<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p><center>表1.2 Python中的算术运算符</center></p><table class="docutils align-default">
+<colgroup>
+<col style="width: 18%" />
+<col style="width: 82%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>运算符</p></th>
+<th class="head"><p>含义</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>a+b</p></td>
+<td><p>加</p></td>
+</tr>
+<tr class="row-odd"><td><p>a-b</p></td>
+<td><p>减</p></td>
+</tr>
+<tr class="row-even"><td><p>a*b</p></td>
+<td><p>乘</p></td>
+</tr>
+<tr class="row-odd"><td><p>a/b</p></td>
+<td><p>除</p></td>
+</tr>
+<tr class="row-even"><td><p>a**b</p></td>
+<td><p>幂（a的b次方）</p></td>
+</tr>
+<tr class="row-odd"><td><p>a%b</p></td>
+<td><p>取模，a/b的余数</p></td>
+</tr>
+<tr class="row-even"><td><p>a//b</p></td>
+<td><p>向下舍入除法</p></td>
+</tr>
+<tr class="row-odd"><td><p>a*(b+c)</p></td>
+<td><p>圆括号，b+c会在乘法之前进行运算</p></td>
+</tr>
+</tbody>
+</table>
+<p><center>表1.3 一些math模块中定义的重要函数</center></p><table class="docutils align-default">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 67%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>函数</p></th>
+<th class="head"><p>含义</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>log(x)</p></td>
+<td><p>x的自然对数（lnx）</p></td>
+</tr>
+<tr class="row-odd"><td><p>log10(x)</p></td>
+<td><p>x的以10为底对数（logx）</p></td>
+</tr>
+<tr class="row-even"><td><p>exp(x)</p></td>
+<td><p>x 的自然指数（e的x次方）</p></td>
+</tr>
+<tr class="row-odd"><td><p>sqrt（x）</p></td>
+<td><p>x的平方根</p></td>
+</tr>
+<tr class="row-even"><td><p>sin(x),cos(x)</p></td>
+<td><p>x的正弦和余弦（x为弧度）</p></td>
+</tr>
+<tr class="row-odd"><td><p>asin(x),acos(x)</p></td>
+<td><p>x的反正弦和反余弦（结果为弧度）</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="id4">
+<h2><span class="section-number">7.2. </span>氨基酸序列分析<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="c">
+<h3><span class="section-number">7.2.1. </span>题目1：下面的序列中有多少C？<a class="headerlink" href="#c" title="Permalink to this headline">¶</a></h3>
+<p>CCCHAJEAFIELAKJNFVLAIFEJLIEFJDCCCEFLEFJ
+大致看一下序列，就能得出有六个C，凭直觉读者就知道怎么计数、怎么获得正确的答案。但如何让电脑替我们完成工作呢？</p>
+</div>
+<div class="section" id="id5">
+<h3><span class="section-number">7.2.2. </span>题目2： 请计算出胰岛素中各个氨基酸的出现次数<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># insulin [homo sapiens]  GI:386828</span>
+<span class="c1"># extracted 51 amino acids of A+B chain</span>
+<span class="n">insulin</span><span class="o">=</span><span class="s2">&quot;GIVEQCCTSICSLYQLENYCNFVNQHLCGSHLVEALYLVCGERGFFYTPKT&quot;</span>
+<span class="k">for</span> <span class="n">amino_acid</span> <span class="ow">in</span> <span class="s2">&quot;ACDEFGHIKLMNPQRSTVWY&quot;</span><span class="p">;</span>
+   <span class="n">number</span><span class="o">=</span><span class="n">insulin</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">amino_acid</span><span class="p">)</span>
+   <span class="nb">print</span><span class="p">(</span><span class="n">amino_acid</span><span class="p">,</span><span class="n">number</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="pymol">
+<h2><span class="section-number">7.3. </span>Pymol小实例（看氨基酸长什么样子）<a class="headerlink" href="#pymol" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">delete</span><span class="o">*</span>
+<span class="n">load</span> <span class="n">laay</span><span class="o">.</span><span class="n">pdb</span>
+<span class="n">hide</span> <span class="n">everything</span>
+<span class="n">bg_color</span> <span class="n">white</span>
+<span class="c1"># protein</span>
+<span class="n">select</span> <span class="n">zinc_finger</span><span class="p">,</span><span class="n">chain</span> <span class="n">a</span>
+<span class="n">show</span> <span class="n">cartoon</span><span class="p">,</span> <span class="n">zinc_finger</span>
+<span class="n">color</span> <span class="n">blue</span><span class="p">,</span> <span class="n">zinc_finger</span>
+<span class="c1">#DNA</span>
+<span class="n">select</span> <span class="n">dna</span><span class="p">,</span> <span class="n">chain</span> <span class="n">b</span> <span class="ow">or</span> <span class="n">chain</span> <span class="n">c</span>
+<span class="n">select</span> <span class="n">dna_backbone</span><span class="p">,</span><span class="n">elem</span> <span class="n">p</span>
+<span class="n">show</span> <span class="n">cartoon</span><span class="p">,</span><span class="n">dna</span>
+<span class="nb">set</span> <span class="n">cartoon_ring_mode</span><span class="p">,</span><span class="mi">3</span>
+<span class="n">color</span> <span class="n">green</span><span class="p">,</span><span class="n">dna</span>
+<span class="n">color</span> <span class="n">forest</span><span class="p">,</span><span class="n">dna_backbone</span>
+<span class="c1">#zinc</span>
+<span class="n">select</span> <span class="n">zinc</span><span class="p">,</span><span class="n">resn</span> <span class="n">zn</span>
+<span class="n">show</span> <span class="n">spheres</span><span class="p">,</span><span class="n">zinc</span>
+<span class="n">color</span> <span class="n">gray</span><span class="p">,</span><span class="n">zinc</span>
+<span class="c1">#binding residues</span>
+<span class="n">select</span> <span class="n">atoms_pocket</span><span class="p">,</span> <span class="n">zinc</span> <span class="n">around</span> <span class="mf">5.0</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">zinc</span>
+<span class="n">select</span> <span class="n">pocket</span><span class="p">,</span><span class="n">byres</span> <span class="n">atoms_pocket</span>
+<span class="n">show</span> <span class="n">sticks</span><span class="p">,</span><span class="n">pocket</span>
+<span class="nb">set</span> <span class="n">valence</span><span class="p">,</span><span class="mi">1</span>
+<span class="n">color</span> <span class="n">marine</span><span class="p">,</span> <span class="n">pocket</span>
+<span class="n">set_view</span><span class="p">(</span>\
+<span class="mf">0.385022461</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.910319746</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.151902989</span><span class="p">,</span>\
+<span class="o">-</span><span class="mf">0.748979029</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.212032005</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.627752066</span><span class="p">,</span>\
+<span class="mf">0.539247334</span><span class="p">,</span> <span class="mf">0.355471820</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.763447404</span><span class="p">,</span>\
+<span class="mf">0.000005471</span><span class="p">,</span> <span class="mf">0.000029832</span><span class="p">,</span> <span class="o">-</span><span class="mf">134.466125488</span><span class="p">,</span>\
+<span class="mf">1.499966264</span><span class="p">,</span> <span class="mf">12.841400146</span><span class="p">,</span> <span class="mf">50.074134827</span><span class="p">,</span>\
+<span class="mf">100.975906372</span><span class="p">,</span> <span class="mf">167.958770752</span><span class="p">,</span> <span class="mf">0.000000000</span><span class="p">)</span>
+<span class="n">ray</span> <span class="mi">800</span><span class="p">,</span><span class="mi">600</span>
+<span class="n">png</span> <span class="n">zinc_finger</span><span class="o">.</span><span class="n">png</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../Pre_Class/dongyuan.html" class="btn btn-neutral float-right" title="课前动员：为什么要学这门课（视频）" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../Class 3/Dna Features Viewer.html" class="btn btn-neutral float-left" title="6. 分子实验自动化与智能化工具：Dna Features Viewer（不做讲解）" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Ray
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
