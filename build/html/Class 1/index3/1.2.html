@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>4.2. 数据类型：杯子还是水缸，10000还是1的问题? &mdash; Cbio 1.0 documentation</title>
+  <title>4.1. 软件安装 &mdash; Cbio 1.0 documentation</title>
   
 
   
@@ -36,8 +36,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="4.3. 数据类型：拿什么来装数据？" href="index3.2.html" />
-    <link rel="prev" title="4.1. 软件安装" href="1.2.html" /> 
+    <link rel="next" title="4.2. 数据类型：杯子还是水缸，10000还是1的问题?" href="index3.1.html" />
+    <link rel="prev" title="4. 编程的逻辑-python基本语法快速入门:我要吹，所有的编程语言都是一个样" href="../index3.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -88,8 +88,8 @@
 <li class="toctree-l1"><a class="reference internal" href="../index1.html">2. 开场需要探讨的几个问题</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../index2.html">3. 从Snapgene开始: 我不再是“吹起来天下无敌，做起来无能为力”的生物人</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../index3.html">4. 编程的逻辑-python基本语法快速入门:我要吹，所有的编程语言都是一个样</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="1.2.html">4.1. 软件安装</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">4.2. 数据类型：杯子还是水缸，10000还是1的问题?</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">4.1. 软件安装</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index3.1.html">4.2. 数据类型：杯子还是水缸，10000还是1的问题?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index3.2.html">4.3. 数据类型：拿什么来装数据？</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index3.3.html">4.4. 字符串：生物就是搞这个的</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index3.4.html">4.5. 条件与循环：计算机就是靠它打败人类的</a></li>
@@ -153,13 +153,13 @@
         
           <li><a href="../index3.html"><span class="section-number">4. </span>编程的逻辑-python基本语法快速入门:我要吹，所有的编程语言都是一个样</a> &raquo;</li>
         
-      <li><span class="section-number">4.2. </span>数据类型：杯子还是水缸，10000还是1的问题?</li>
+      <li><span class="section-number">4.1. </span>软件安装</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../../_sources/Class 1/index3/index3.1.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/Class 1/index3/1.2.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -173,79 +173,51 @@
            <div itemprop="articleBody">
             
   <div class="section" id="id1">
-<h1><span class="section-number">4.2. </span>数据类型：杯子还是水缸，10000还是1的问题?<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<p><center>表2-1 Python内置对象</center></p><table class="docutils align-default">
+<h1><span class="section-number">4.1. </span>软件安装<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p><center>表1-1 常用pip命令使用方法</center></p><table class="docutils align-default">
 <colgroup>
-<col style="width: 21%" />
-<col style="width: 39%" />
-<col style="width: 39%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
-<tr class="row-odd"><th class="head"><p>对象类型</p></th>
-<th class="head"><p>类型名称</p></th>
-<th class="head"><p>示例</p></th>
+<tr class="row-odd"><th class="head"><p>pip命令示例</p></th>
+<th class="head"><p>说明</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>数字</p></td>
-<td><p>int,float,complex</p></td>
-<td><p>1234,3.14,1.3e5,3+4j</p></td>
+<tr class="row-even"><td><p>pip download SomePackage</p></td>
+<td><p>下载扩展库的制定版本，不安装</p></td>
 </tr>
-<tr class="row-odd"><td><p>字符串</p></td>
-<td><p>str</p></td>
-<td><p>‘swfu’, “I’m student”,
-“‘Python”’, r’abc’,
-R’bcd’</p></td>
+<tr class="row-odd"><td><p>pip freeze</p></td>
+<td><p>以 requirements
+的格式列出已安装模块</p></td>
 </tr>
-<tr class="row-even"><td><p>字节串</p></td>
-<td><p>bytes</p></td>
-<td><p>b’hello world’</p></td>
+<tr class="row-even"><td><p>pip list</p></td>
+<td><p>列出当前已安装的所有模块</p></td>
 </tr>
-<tr class="row-odd"><td><p>列表</p></td>
-<td><p>list</p></td>
-<td><p>[1,2,3],
-[‘a’,‘b’,[‘c’,2]]</p></td>
+<tr class="row-odd"><td><p>pip install
+SomePackage.[==version]</p></td>
+<td><p>在线安装 SomePackage
+模块的指定版本</p></td>
 </tr>
-<tr class="row-even"><td><p>字典</p></td>
-<td><p>dict</p></td>
-<td><p>{1:‘foo
-d’,2:‘taste’,3:‘import’}</p></td>
+<tr class="row-even"><td><p>pip install SomePackage.whl</p></td>
+<td><p>通过whl文件离线安装扩展库</p></td>
 </tr>
-<tr class="row-odd"><td><p>元组</p></td>
-<td><p>tuple</p></td>
-<td><p>(2,-5,6),(3,)</p></td>
+<tr class="row-odd"><td><p>pip install
+package1、package2···</p></td>
+<td><p>依次（在线）安装
+packagel、package2 等扩展模块</p></td>
 </tr>
-<tr class="row-even"><td><p>集合</p></td>
-<td><p>set frozenset</p></td>
-<td><p>{‘a’,‘b’,‘c’}</p></td>
+<tr class="row-even"><td><p>pip install -r requirements. txt</p></td>
+<td><p>安装 requirement.txt
+文件中指定的扩展库</p></td>
 </tr>
-<tr class="row-odd"><td><p>布尔型</p></td>
-<td><p>bool</p></td>
-<td><p>True,False</p></td>
+<tr class="row-odd"><td><p>pip install –upgrade SomePackage</p></td>
+<td><p>升级 SomePackage 模块</p></td>
 </tr>
-<tr class="row-even"><td><p>空类型</p></td>
-<td><p>None Type</p></td>
-<td><p>None</p></td>
-</tr>
-<tr class="row-odd"><td><p>异常</p></td>
-<td><p>Exception ValueError
-TypeError</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>文件</p></td>
-<td></td>
-<td><p>f=open(‘data.dat’,‘rb’)</p></td>
-</tr>
-<tr class="row-odd"><td><p>其它迭代类型</p></td>
-<td></td>
-<td><p>生成器对象、range对象
-、zip对象、enumerate对象
-、map对象、filter对象等</p></td>
-</tr>
-<tr class="row-even"><td><p>编程单元</p></td>
-<td></td>
-<td><p>函数（使用def定
-义）模块（类型为module）</p></td>
+<tr class="row-even"><td><p>pip uninstall
+SomePackage[==version]</p></td>
+<td><p>卸载SomePackage模块的指定版本</p></td>
 </tr>
 </tbody>
 </table>
@@ -259,10 +231,10 @@ TypeError</p></td>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="index3.2.html" class="btn btn-neutral float-right" title="4.3. 数据类型：拿什么来装数据？" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="index3.1.html" class="btn btn-neutral float-right" title="4.2. 数据类型：杯子还是水缸，10000还是1的问题?" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="1.2.html" class="btn btn-neutral float-left" title="4.1. 软件安装" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../index3.html" class="btn btn-neutral float-left" title="4. 编程的逻辑-python基本语法快速入门:我要吹，所有的编程语言都是一个样" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
