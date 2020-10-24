@@ -213,10 +213,12 @@
 <span class="n">chrom1</span>  <span class="n">custom</span>  <span class="n">terminator</span>  <span class="mi">6301</span>    <span class="mi">6450</span>    <span class="o">.</span>   <span class="o">+</span>   <span class="o">.</span>   <span class="n">name</span><span class="o">=</span><span class="n">T3</span>
 </pre></div>
 </div>
-<p>gff说明：
-- gff文件是一个九列的数据文件，每列之间用tab空格隔开（也就是t)
-- 详细的说明可见：<a class="reference external" href="http://www.360doc.com/content/19/1224/14/68068867_881789482.shtml">http://www.360doc.com/content/19/1224/14/68068867_881789482.shtml</a>
-- 注意事项：一定要注意大小写。一般都是小写！！！（这点非常重要，dna features viewer给出的官方案例中name误写成了Name)</p>
+<p>gff说明：</p>
+<ul class="simple">
+<li><p>gff文件是一个九列的数据文件，每列之间用tab空格隔开（也就是t)</p></li>
+<li><p>详细的说明可见：<a class="reference external" href="http://www.360doc.com/content/19/1224/14/68068867_881789482.shtml">http://www.360doc.com/content/19/1224/14/68068867_881789482.shtml</a></p></li>
+<li><p>注意事项：一定要注意大小写。一般都是小写！！！（这点非常重要，dna features viewer给出的官方案例中name误写成了Name)</p></li>
+</ul>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">dna_features_viewer</span> <span class="k">import</span> <span class="n">BiopythonTranslator</span>
 <span class="n">ax</span> <span class="o">=</span> <span class="n">BiopythonTranslator</span><span class="o">.</span><span class="n">quick_class_plot</span><span class="p">(</span><span class="s2">&quot;plasmid.gff&quot;</span><span class="p">,</span> <span class="n">figure_width</span><span class="o">=</span><span class="mi">9</span><span class="p">)</span>
 <span class="n">ax</span><span class="o">.</span><span class="n">figure</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;dfv.svg&#39;</span><span class="p">,</span> <span class="n">bbox_inches</span><span class="o">=</span><span class="s1">&#39;tight&#39;</span><span class="p">)</span> <span class="c1"># SAVE AS SVG</span>

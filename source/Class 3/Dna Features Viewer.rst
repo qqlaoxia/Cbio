@@ -34,7 +34,9 @@ gff文件：
    chrom1  custom  gene    4651    6300    .   +   .   name=GFP
    chrom1  custom  terminator  6301    6450    .   +   .   name=T3
 
+
 gff说明：
+
 - gff文件是一个九列的数据文件，每列之间用tab空格隔开（也就是\t)
 - 详细的说明可见：http://www.360doc.com/content/19/1224/14/68068867_881789482.shtml
 - 注意事项：一定要注意大小写。一般都是小写！！！（这点非常重要，dna features viewer给出的官方案例中name误写成了Name)
