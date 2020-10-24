@@ -92,21 +92,22 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">6. 分子实验自动化与智能化工具：Dna Features Viewer（不做讲解）</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#id1">6.1. 方法说明</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#id2">6.2. 用法说明书</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#with-gc-plot">6.2.1. with_gc_plot</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#translator-with-cutom-colors">6.2.2. translator_with_cutom_colors</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#sequence-and-translation">6.2.3. sequence_and_translation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#plot-with-bokeh">6.2.4. plot_with_bokeh</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#overview-and-detail">6.2.5. overview_and_detail</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#multipage-plot">6.2.6. multipage_plot</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#multiline-plot">6.2.7. multiline_plot</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#locally-highlighted-record">6.2.8. locally_highlighted_record</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#graphic-record-defined-by-hand">6.2.9. graphic_record_defined_by_hand</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#gff-record-from-the-web">6.2.10. gff_record_from_the_web</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#from-genbank">6.2.11. from_genbank</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#example-with-inverted-x-axis">6.2.12. example_with_inverted_x_axis</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#example-with-gif">6.2.13. example_with_gif</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#custom-biopython-translator">6.2.14. custom_biopython_translator</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#cartoon-style">6.2.15. cartoon_style</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#draw-gff-image">6.2.1. draw gff image</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#with-gc-plot">6.2.2. with_gc_plot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#translator-with-cutom-colors">6.2.3. translator_with_cutom_colors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sequence-and-translation">6.2.4. sequence_and_translation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plot-with-bokeh">6.2.5. plot_with_bokeh</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#overview-and-detail">6.2.6. overview_and_detail</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#multipage-plot">6.2.7. multipage_plot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#multiline-plot">6.2.8. multiline_plot</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#locally-highlighted-record">6.2.9. locally_highlighted_record</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#graphic-record-defined-by-hand">6.2.10. graphic_record_defined_by_hand</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gff-record-from-the-web">6.2.11. gff_record_from_the_web</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#from-genbank">6.2.12. from_genbank</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#example-with-inverted-x-axis">6.2.13. example_with_inverted_x_axis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#example-with-gif">6.2.14. example_with_gif</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#custom-biopython-translator">6.2.15. custom_biopython_translator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cartoon-style">6.2.16. cartoon_style</a></li>
 </ul>
 </li>
 </ul>
@@ -197,8 +198,34 @@
 </div>
 <div class="section" id="id2">
 <h2><span class="section-number">6.2. </span>用法说明书<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="draw-gff-image">
+<h3><span class="section-number">6.2.1. </span>draw gff image<a class="headerlink" href="#draw-gff-image" title="Permalink to this headline">¶</a></h3>
+<p>gff文件：</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">chrom1</span>  <span class="n">custom</span>  <span class="n">backbone</span>    <span class="mi">0</span>   <span class="mi">4400</span>    <span class="o">.</span>   <span class="o">+</span>   <span class="o">.</span>   <span class="n">name</span><span class="o">=</span><span class="n">backbone</span>
+<span class="n">chrom1</span>  <span class="n">custom</span>  <span class="n">promoter</span>    <span class="mi">10</span>  <span class="mi">58</span>  <span class="o">.</span>   <span class="o">+</span>   <span class="o">.</span>   <span class="n">name</span><span class="o">=</span><span class="n">P1</span>
+<span class="n">chrom1</span>  <span class="n">custom</span>  <span class="n">gene</span>    <span class="mi">67</span>  <span class="mi">948</span> <span class="o">.</span>   <span class="o">+</span>   <span class="o">.</span>   <span class="n">name</span><span class="o">=</span><span class="n">geneA</span>
+<span class="n">chrom1</span>  <span class="n">custom</span>  <span class="n">terminator</span>  <span class="mi">949</span> <span class="mi">1000</span>    <span class="o">.</span>   <span class="o">+</span>   <span class="o">.</span>   <span class="n">name</span><span class="o">=</span><span class="n">T1</span>
+<span class="n">chrom1</span>  <span class="n">custom</span>  <span class="n">promoter</span>    <span class="mi">1124</span>    <span class="mi">1125</span>    <span class="o">.</span>   <span class="o">+</span>   <span class="o">.</span>   <span class="n">Name</span><span class="o">=</span><span class="n">P2</span>
+<span class="n">chrom1</span>  <span class="n">custom</span>  <span class="n">gene</span>    <span class="mi">1134</span>    <span class="mi">4300</span>    <span class="o">.</span>   <span class="o">+</span>   <span class="o">.</span>   <span class="n">name</span><span class="o">=</span><span class="n">another</span> <span class="n">gene</span> <span class="k">with</span> <span class="n">an</span> <span class="n">extremely</span> <span class="n">very</span> <span class="n">long</span> <span class="n">name</span>
+<span class="n">chrom1</span>  <span class="n">custom</span>  <span class="n">terminator</span>  <span class="mi">4301</span>    <span class="mi">4350</span>    <span class="o">.</span>   <span class="o">+</span>   <span class="o">.</span>   <span class="n">name</span><span class="o">=</span><span class="n">T2</span>
+<span class="n">chrom1</span>  <span class="n">custom</span>  <span class="n">promoter</span>    <span class="mi">4500</span>    <span class="mi">4650</span>    <span class="o">.</span>   <span class="o">+</span>   <span class="o">.</span>   <span class="n">name</span><span class="o">=</span><span class="n">P3</span>
+<span class="n">chrom1</span>  <span class="n">custom</span>  <span class="n">gene</span>    <span class="mi">4651</span>    <span class="mi">6300</span>    <span class="o">.</span>   <span class="o">+</span>   <span class="o">.</span>   <span class="n">name</span><span class="o">=</span><span class="n">GFP</span>
+<span class="n">chrom1</span>  <span class="n">custom</span>  <span class="n">terminator</span>  <span class="mi">6301</span>    <span class="mi">6450</span>    <span class="o">.</span>   <span class="o">+</span>   <span class="o">.</span>   <span class="n">name</span><span class="o">=</span><span class="n">T3</span>
+</pre></div>
+</div>
+<p>gff说明：
+- gff文件是一个九列的数据文件，每列之间用tab空格隔开（也就是t)
+- 详细的说明可见：<a class="reference external" href="http://www.360doc.com/content/19/1224/14/68068867_881789482.shtml">http://www.360doc.com/content/19/1224/14/68068867_881789482.shtml</a>
+- 注意事项：一定要注意大小写。一般都是小写！！！（这点非常重要，dna features viewer给出的官方案例中name误写成了Name)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">dna_features_viewer</span> <span class="k">import</span> <span class="n">BiopythonTranslator</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">BiopythonTranslator</span><span class="o">.</span><span class="n">quick_class_plot</span><span class="p">(</span><span class="s2">&quot;plasmid.gff&quot;</span><span class="p">,</span> <span class="n">figure_width</span><span class="o">=</span><span class="mi">9</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">figure</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;dfv.svg&#39;</span><span class="p">,</span> <span class="n">bbox_inches</span><span class="o">=</span><span class="s1">&#39;tight&#39;</span><span class="p">)</span> <span class="c1"># SAVE AS SVG</span>
+</pre></div>
+</div>
+<img alt="../_images/0001.bmp" class="align-center" src="../_images/0001.bmp" />
+</div>
 <div class="section" id="with-gc-plot">
-<h3><span class="section-number">6.2.1. </span>with_gc_plot<a class="headerlink" href="#with-gc-plot" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.2. </span>with_gc_plot<a class="headerlink" href="#with-gc-plot" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;In this example we plot a record&#39;s annotations on top of the curve of the</span>
 <span class="sd">local GC content in the record&#39;s sequence.</span>
 <span class="sd">&quot;&quot;&quot;</span>
@@ -240,7 +267,7 @@
 <img alt="../_images/with_gc_plot.png" class="align-center" src="../_images/with_gc_plot.png" />
 </div>
 <div class="section" id="translator-with-cutom-colors">
-<h3><span class="section-number">6.2.2. </span>translator_with_cutom_colors<a class="headerlink" href="#translator-with-cutom-colors" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.3. </span>translator_with_cutom_colors<a class="headerlink" href="#translator-with-cutom-colors" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;An example with GIF generation at the end. How cool is that!</span>
 
 <span class="sd">This example requires the Moviepy library  installed (pip install moviepy).</span>
@@ -278,7 +305,7 @@
 <img alt="../_images/translator_with_custom_colors.png" class="align-center" src="../_images/translator_with_custom_colors.png" />
 </div>
 <div class="section" id="sequence-and-translation">
-<h3><span class="section-number">6.2.3. </span>sequence_and_translation<a class="headerlink" href="#sequence-and-translation" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.4. </span>sequence_and_translation<a class="headerlink" href="#sequence-and-translation" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">dna_features_viewer</span> <span class="k">import</span> <span class="n">GraphicFeature</span><span class="p">,</span> <span class="n">GraphicRecord</span>
 
 <span class="n">record</span> <span class="o">=</span> <span class="n">GraphicRecord</span><span class="p">(</span><span class="n">sequence</span><span class="o">=</span><span class="s2">&quot;ATGCATGCATGCATGCATGCATGCATGC&quot;</span><span class="p">,</span> <span class="n">features</span><span class="o">=</span><span class="p">[</span>
@@ -296,7 +323,7 @@
 <img alt="../_images/sequence_and_translation.png" class="align-center" src="../_images/sequence_and_translation.png" />
 </div>
 <div class="section" id="plot-with-bokeh">
-<h3><span class="section-number">6.2.4. </span>plot_with_bokeh<a class="headerlink" href="#plot-with-bokeh" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.5. </span>plot_with_bokeh<a class="headerlink" href="#plot-with-bokeh" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;Simple example with Bokeh output. Requires the Bokeh library installed.</span>
 <span class="sd">&quot;&quot;&quot;</span>
 
@@ -314,7 +341,7 @@
 <img alt="../_images/plot_with_bokeh.png" class="align-center" src="../_images/plot_with_bokeh.png" />
 </div>
 <div class="section" id="overview-and-detail">
-<h3><span class="section-number">6.2.5. </span>overview_and_detail<a class="headerlink" href="#overview-and-detail" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.6. </span>overview_and_detail<a class="headerlink" href="#overview-and-detail" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;Generate a 2-plot figure with full sequence on the left,</span>
 <span class="sd">detail of a sub-segment on the right.&quot;&quot;&quot;</span>
 
@@ -356,7 +383,7 @@
 <img alt="../_images/overview_and_detail.png" class="align-center" src="../_images/overview_and_detail.png" />
 </div>
 <div class="section" id="multipage-plot">
-<h3><span class="section-number">6.2.6. </span>multipage_plot<a class="headerlink" href="#multipage-plot" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.7. </span>multipage_plot<a class="headerlink" href="#multipage-plot" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;In this example we plot a record fragment with sequence over multiple lines.</span>
 <span class="sd">&quot;&quot;&quot;</span>
 <span class="kn">from</span> <span class="nn">dna_features_viewer</span> <span class="k">import</span> <span class="n">BiopythonTranslator</span>
@@ -387,7 +414,7 @@
 <img alt="../_images/multipage_plot_2.png" class="align-center" src="../_images/multipage_plot_2.png" />
 </div>
 <div class="section" id="multiline-plot">
-<h3><span class="section-number">6.2.7. </span>multiline_plot<a class="headerlink" href="#multiline-plot" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.8. </span>multiline_plot<a class="headerlink" href="#multiline-plot" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;In this example we plot a record fragment with sequence over multiple lines.</span>
 <span class="sd">&quot;&quot;&quot;</span>
 <span class="kn">from</span> <span class="nn">dna_features_viewer</span> <span class="k">import</span> <span class="n">BiopythonTranslator</span>
@@ -404,7 +431,7 @@
 <img alt="../_images/multiline_plot.png" class="align-center" src="../_images/multiline_plot.png" />
 </div>
 <div class="section" id="locally-highlighted-record">
-<h3><span class="section-number">6.2.8. </span>locally_highlighted_record<a class="headerlink" href="#locally-highlighted-record" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.9. </span>locally_highlighted_record<a class="headerlink" href="#locally-highlighted-record" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">dna_features_viewer</span> <span class="k">import</span> <span class="n">BiopythonTranslator</span>
 
 <span class="n">start</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="mi">1300</span><span class="p">,</span> <span class="mi">2700</span>
@@ -431,7 +458,7 @@
 <img alt="../_images/graphic_record_defined_by_hand_circular.png" class="align-center" src="../_images/graphic_record_defined_by_hand_circular.png" />
 </div>
 <div class="section" id="graphic-record-defined-by-hand">
-<h3><span class="section-number">6.2.9. </span>graphic_record_defined_by_hand<a class="headerlink" href="#graphic-record-defined-by-hand" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.10. </span>graphic_record_defined_by_hand<a class="headerlink" href="#graphic-record-defined-by-hand" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;Simple example where a few features are defined &quot;by hand&quot; and are displayed</span>
 <span class="sd">and exported as PNG, first with a linear view, then with a circular</span>
 <span class="sd">view.</span>
@@ -481,7 +508,7 @@
 <img alt="../_images/graphic_record_defined_by_hand.png" class="align-center" src="../_images/graphic_record_defined_by_hand.png" />
 </div>
 <div class="section" id="gff-record-from-the-web">
-<h3><span class="section-number">6.2.10. </span>gff_record_from_the_web<a class="headerlink" href="#gff-record-from-the-web" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.11. </span>gff_record_from_the_web<a class="headerlink" href="#gff-record-from-the-web" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">urllib</span>
 <span class="kn">from</span> <span class="nn">io</span> <span class="k">import</span> <span class="n">StringIO</span>
 <span class="kn">from</span> <span class="nn">dna_features_viewer</span> <span class="k">import</span> <span class="n">BiopythonTranslator</span><span class="p">,</span> <span class="n">load_record</span>
@@ -526,7 +553,7 @@
 <img alt="../_images/gff_record_from_the_web.png" class="align-center" src="../_images/gff_record_from_the_web.png" />
 </div>
 <div class="section" id="from-genbank">
-<h3><span class="section-number">6.2.11. </span>from_genbank<a class="headerlink" href="#from-genbank" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.12. </span>from_genbank<a class="headerlink" href="#from-genbank" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">dna_features_viewer</span> <span class="k">import</span> <span class="n">BiopythonTranslator</span>
 
 <span class="n">graphic_record</span> <span class="o">=</span> <span class="n">BiopythonTranslator</span><span class="p">()</span><span class="o">.</span><span class="n">translate_record</span><span class="p">(</span><span class="s2">&quot;example_sequence.gb&quot;</span><span class="p">)</span>
@@ -538,7 +565,7 @@
 <img alt="../_images/from_genbank.png" class="align-center" src="../_images/from_genbank.png" />
 </div>
 <div class="section" id="example-with-inverted-x-axis">
-<h3><span class="section-number">6.2.12. </span>example_with_inverted_x_axis<a class="headerlink" href="#example-with-inverted-x-axis" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.13. </span>example_with_inverted_x_axis<a class="headerlink" href="#example-with-inverted-x-axis" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;This example shows how you can very easily flip a plot horizontally if you</span>
 <span class="sd">need, using Matplotlib&#39;s ax.set_xlim() method.&quot;&quot;&quot;</span>
 
@@ -554,7 +581,7 @@
 <img alt="../_images/example_with_inverted_x_axis.png" class="align-center" src="../_images/example_with_inverted_x_axis.png" />
 </div>
 <div class="section" id="example-with-gif">
-<h3><span class="section-number">6.2.13. </span>example_with_gif<a class="headerlink" href="#example-with-gif" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.14. </span>example_with_gif<a class="headerlink" href="#example-with-gif" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;An example with GIF generation at the end. How cool is that!</span>
 
 <span class="sd">This example requires the Moviepy library  installed (pip install moviepy).</span>
@@ -615,7 +642,7 @@
 <img alt="../_images/example_with_gif.gif" class="align-center" src="../_images/example_with_gif.gif" />
 </div>
 <div class="section" id="custom-biopython-translator">
-<h3><span class="section-number">6.2.14. </span>custom_biopython_translator<a class="headerlink" href="#custom-biopython-translator" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.15. </span>custom_biopython_translator<a class="headerlink" href="#custom-biopython-translator" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">dna_features_viewer</span> <span class="k">import</span> <span class="n">BiopythonTranslator</span>
 
 <span class="k">class</span> <span class="nc">MyCustomTranslator</span><span class="p">(</span><span class="n">BiopythonTranslator</span><span class="p">):</span>
@@ -662,7 +689,7 @@
 <img alt="../_images/custom_biopython_translator.png" class="align-center" src="../_images/custom_biopython_translator.png" />
 </div>
 <div class="section" id="cartoon-style">
-<h3><span class="section-number">6.2.15. </span>cartoon_style<a class="headerlink" href="#cartoon-style" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.2.16. </span>cartoon_style<a class="headerlink" href="#cartoon-style" title="Permalink to this headline">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;In this example, we draw features XKCD style.</span>
 
 <span class="sd">We use Matplotlib&#39;s built-in xkcd() function, and a few tweaks:</span>
