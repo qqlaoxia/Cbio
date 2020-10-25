@@ -90,7 +90,26 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../index3.html">4. 编程的逻辑-python基本语法快速入门:我要吹，所有的编程语言都是一个样</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="1.2.html">4.1. 软件安装</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index3.1.html">4.2. 数据类型：杯子还是水缸，10000还是1的问题?</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">4.3. 数据类型：拿什么来装数据？</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">4.3. 数据类型：拿什么来装数据？</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">4.3.1. 序列概述</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">4.3.2. 通用的序列操作</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id4">4.3.2.1. 索引</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">4.3.2.2. 切片操作</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">4.3.2.3. 序列相加</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id7">4.3.2.4. 乘法</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id8">4.3.2.5. 成员资格</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id9">4.3.2.6. 长度、最小值和最大值</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#python">4.3.3. 列表：Python的助力</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#list">4.3.3.1. 函数list</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id10">4.3.3.2. 基本的列表操作</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id14">4.3.3.3. 列表方法</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id15">4.3.3.4. 本章介绍的新函数</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="index3.3.html">4.4. 字符串：生物就是搞这个的</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index3.4.html">4.5. 条件与循环：计算机就是靠它打败人类的</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index3.5.html">4.6. 函数：抽象的才是精华</a></li>
@@ -174,6 +193,496 @@
             
   <div class="section" id="id1">
 <h1><span class="section-number">4.3. </span>数据类型：拿什么来装数据？<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2><span class="section-number">4.3.1. </span>序列概述<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="go">&gt;&gt;&gt;edward = [&#39;Edward Gumby&#39;, 42]</span>
+<span class="go">&gt;&gt;&gt;john = [&#39;John Smith&#39;, 50]</span>
+<span class="go">&gt;&gt;&gt;database = [edward, john]</span>
+<span class="go">database</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id3">
+<h2><span class="section-number">4.3.2. </span>通用的序列操作<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id4">
+<h3><span class="section-number">4.3.2.1. </span>索引<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">greeting</span> <span class="o">=</span> <span class="s1">&#39;Hello&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">greeting</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="go">&#39;H&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">greeting</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="go">&#39;o&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;Hello&#39;</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="go">&#39;e&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">fourth</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Year: &#39;</span><span class="p">)[</span><span class="mi">3</span><span class="p">]</span>
+<span class="go">Year: 2005</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">fourth</span>
+<span class="go">&#39;5&#39;</span>
+</pre></div>
+</div>
+</div></blockquote>
+<dl>
+<dt>具体事例</dt><dd><div class="highlight-default notranslate"><div class="highlight"><pre><span></span># 将以数指定年、月、日的日期打印出来
+months = [
+        &#39;January&#39;,
+        &#39;February&#39;,
+        &#39;March&#39;,
+        &#39;April&#39;,
+        &#39;May&#39;,
+        &#39;June&#39;,
+        &#39;July&#39;,
+        &#39;August&#39;,
+        &#39;September&#39;,
+        &#39;October&#39;,
+        &#39;November&#39;,
+        &#39;December&#39;
+]
+# 一个列表，其中包含数1～31对应的结尾
+endings = [&#39;st&#39;, &#39;nd&#39;, &#39;rd&#39;] + 17 * [&#39;th&#39;] \
+                + [&#39;st&#39;, &#39;nd&#39;, &#39;rd&#39;] + 7 * [&#39;th&#39;] \
+                + [&#39;st&#39;]
+year = input(&#39;Year: &#39;)
+month = input(&#39;Month (1-12): &#39;)
+day = input(&#39;Day (1-31): &#39;)
+month_number = int(month)
+day_number = int(day)
+# 别忘了将表示月和日的数减1，这样才能得到正确的索引
+month_name = months[month_number-1]
+ordinal = day + endings[day_number-1]
+print(month_name + &#39; &#39; + ordinal + &#39;, &#39; + year)
+这个程序的运行情况类似于下面这样：
+Year: 1974
+Month (1-12): 8
+Day (1-31): 16
+August 16th, 1974
+</pre></div>
+</div>
+</dd>
+</dl>
+</div>
+<div class="section" id="id5">
+<h3><span class="section-number">4.3.2.2. </span>切片操作<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">tag</span> <span class="o">=</span> <span class="s1">&#39;&lt;a href=&quot;http://www.python.org&quot;&gt;Python web site&lt;/a&gt;&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">tag</span><span class="p">[</span><span class="mi">9</span><span class="p">:</span><span class="mi">30</span><span class="p">]</span>
+<span class="go">&#39;http://www.python.org&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">tag</span><span class="p">[</span><span class="mi">32</span><span class="p">:</span><span class="o">-</span><span class="mi">4</span><span class="p">]</span>
+<span class="go">&#39;Python web site&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[</span><span class="mi">3</span><span class="p">:</span><span class="mi">6</span><span class="p">]</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="go">[8, 9]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[</span><span class="o">-</span><span class="mi">3</span><span class="p">:</span><span class="mi">0</span><span class="p">]</span>
+<span class="go">[]</span>
+</pre></div>
+</div>
+</div></blockquote>
+<dl>
+<dt>具体事例</dt><dd><div class="highlight-default notranslate"><div class="highlight"><pre><span></span># 从类似于http://www.something.com的URL中提取域名
+url = input(&#39;Please enter the URL:&#39;)
+domain = url[11:-4]
+print(&quot;Domain name: &quot; + domain)
+这个程序的运行情况类似于下面这样：
+Please enter the URL: http://www.python.org
+Domain name: python
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span>
+<span class="go">[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">[1, 3, 5, 7, 9]</span>
+<span class="go">numbers[3:6:3]</span>
+<span class="go">[4]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[::</span><span class="mi">4</span><span class="p">]</span>
+<span class="go">[1, 5, 9]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[</span><span class="mi">8</span><span class="p">:</span><span class="mi">3</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="go">[9, 8, 7, 6, 5]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[</span><span class="mi">10</span><span class="p">:</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">[10, 8, 6, 4, 2]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">[]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[::</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">[10, 8, 6, 4, 2]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[</span><span class="mi">5</span><span class="p">::</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">[6, 4, 2]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[:</span><span class="mi">5</span><span class="p">:</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+<span class="go">[10, 8]</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</div>
+<div class="section" id="id6">
+<h3><span class="section-number">4.3.2.3. </span>序列相加<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
+<span class="go">[1, 2, 3, 4, 5, 6]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;Hello,&#39;</span> <span class="o">+</span> <span class="s1">&#39;world!&#39;</span>
+<span class="go">&#39;Hello, world!&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;world!&#39;</span>
+<span class="go">Traceback (innermost last):</span>
+<span class="go">File &quot;&lt;pyshell&gt;&quot;, line 1, in ?</span>
+<span class="go">[1, 2, 3] + &#39;world!&#39;</span>
+<span class="go">TypeError: can only concatenate list (not &quot;string&quot;) to list</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id7">
+<h3><span class="section-number">4.3.2.4. </span>乘法<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;python&#39;</span> <span class="o">*</span> <span class="mi">5</span>
+<span class="go">&#39;pythonpythonpythonpythonpython&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="p">[</span><span class="mi">42</span><span class="p">]</span> <span class="o">*</span> <span class="mi">10</span>
+<span class="go">[42, 42, 42, 42, 42, 42, 42, 42, 42, 42]</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">sequence</span> <span class="o">=</span> <span class="p">[</span><span class="kc">None</span><span class="p">]</span> <span class="o">*</span> <span class="mi">10</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">sequence</span>
+<span class="go">[None, None, None, None, None, None, None, None, None, None]</span>
+</pre></div>
+</div>
+</div></blockquote>
+<dl>
+<dt>具体事例</dt><dd><div class="highlight-default notranslate"><div class="highlight"><pre><span></span># 在位于屏幕中央且宽度合适的方框内打印一个句子
+sentence = input(&quot;Sentence: &quot;)
+screen_width = 80
+text_width = len(sentence)
+box_width = text_width + 6
+left_margin = (screen_width - box_width) // 2
+print()
+print(&#39; &#39; * left_margin + &#39;+&#39; + &#39;-&#39; * (box_width-2) + &#39;+&#39;)
+print(&#39; &#39; * left_margin + &#39;| &#39; + &#39; &#39; * text_width + &#39; |&#39;)
+print(&#39; &#39; * left_margin + &#39;| &#39; + sentence + &#39; |&#39;)
+print(&#39; &#39; * left_margin + &#39;| &#39; + &#39; &#39; * text_width + &#39; |&#39;)
+print(&#39; &#39; * left_margin + &#39;+&#39; + &#39;-&#39; * (box_width-2) + &#39;+&#39;)
+print()
+这个程序的运行情况类似于下面这样：
+Sentence: He&#39;s a very naughty boy!
++-----------------------------+
+|                             |
+| He&#39;s a very naughty boy!    |
+|                             |
++-----------------------------+
+</pre></div>
+</div>
+</dd>
+</dl>
+</div>
+<div class="section" id="id8">
+<h3><span class="section-number">4.3.2.5. </span>成员资格<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">permissions</span> <span class="o">=</span> <span class="s1">&#39;rw&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;w&#39;</span> <span class="ow">in</span> <span class="n">permissions</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;x&#39;</span> <span class="ow">in</span> <span class="n">permissions</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">users</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;mlh&#39;</span><span class="p">,</span> <span class="s1">&#39;foo&#39;</span><span class="p">,</span> <span class="s1">&#39;bar&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Enter your user name: &#39;</span><span class="p">)</span> <span class="ow">in</span> <span class="n">users</span>
+<span class="go">Enter your user name: mlh</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">subject</span> <span class="o">=</span> <span class="s1">&#39;$$$ Get rich now!!! $$$&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;$$$&#39;</span> <span class="ow">in</span> <span class="n">subject</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id9">
+<h3><span class="section-number">4.3.2.6. </span>长度、最小值和最大值<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">100</span><span class="p">,</span> <span class="mi">34</span><span class="p">,</span> <span class="mi">678</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+<span class="go">3</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">max</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+<span class="go">678</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">min</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+<span class="go">34</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">max</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="go">3</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">min</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<span class="go">2</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="python">
+<h2><span class="section-number">4.3.3. </span>列表：Python的助力<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="list">
+<h3><span class="section-number">4.3.3.1. </span>函数list<a class="headerlink" href="#list" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">list</span><span class="p">(</span><span class="s1">&#39;Hello&#39;</span><span class="p">)</span>
+<span class="go">[&#39;H&#39;, &#39;e&#39;, &#39;l&#39;, &#39;l&#39;, &#39;o&#39;]</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id10">
+<h3><span class="section-number">4.3.3.2. </span>基本的列表操作<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id11">
+<h4><span class="section-number">4.3.3.2.1. </span>修改列表<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span>
+<span class="go">[1, 2, 1]</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id12">
+<h4><span class="section-number">4.3.3.2.2. </span>删除元素<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Alice&#39;</span><span class="p">,</span> <span class="s1">&#39;Beth&#39;</span><span class="p">,</span> <span class="s1">&#39;Cecil&#39;</span><span class="p">,</span> <span class="s1">&#39;Dee-Dee&#39;</span><span class="p">,</span> <span class="s1">&#39;Earl&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">del</span> <span class="n">names</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">names</span>
+<span class="go">[&#39;Alice&#39;, &#39;Beth&#39;, &#39;Dee-Dee&#39;, &#39;Earl&#39;]</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id13">
+<h4><span class="section-number">4.3.3.2.3. </span>给切片赋值<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">name</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="s1">&#39;Perl&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">name</span>
+<span class="go">[&#39;P&#39;, &#39;e&#39;, &#39;r&#39;, &#39;l&#39;]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">name</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="s1">&#39;ar&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">name</span>
+<span class="go">[&#39;P&#39;, &#39;e&#39;, &#39;a&#39;, &#39;r&#39;]</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">name</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="s1">&#39;Perl&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">name</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="s1">&#39;ython&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">name</span>
+<span class="go">[&#39;P&#39;, &#39;y&#39;, &#39;t&#39;, &#39;h&#39;, &#39;o&#39;, &#39;n&#39;]</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span>
+<span class="go">[1, 2, 3, 4, 5]</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span>
+<span class="go">[1, 2, 3, 4, 5]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="p">[</span><span class="mi">1</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span>
+<span class="go">[1, 5]</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id14">
+<h3><span class="section-number">4.3.3.3. </span>列表方法<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="append">
+<h4><span class="section-number">4.3.3.3.1. </span>append<a class="headerlink" href="#append" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lst</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lst</span>
+<span class="go">[1, 2, 3, 4]</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="clear">
+<h4><span class="section-number">4.3.3.3.2. </span>clear<a class="headerlink" href="#clear" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lst</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lst</span>
+<span class="go">[]</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="copy">
+<h4><span class="section-number">4.3.3.3.3. </span>copy<a class="headerlink" href="#copy" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="n">a</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">4</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span>
+<span class="go">[1, 2, 3]</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="count">
+<h4><span class="section-number">4.3.3.3.4. </span>count<a class="headerlink" href="#count" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="p">[</span><span class="s1">&#39;to&#39;</span><span class="p">,</span> <span class="s1">&#39;be&#39;</span><span class="p">,</span> <span class="s1">&#39;or&#39;</span><span class="p">,</span> <span class="s1">&#39;not&#39;</span><span class="p">,</span> <span class="s1">&#39;to&#39;</span><span class="p">,</span> <span class="s1">&#39;be&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;to&#39;</span><span class="p">)</span>
+<span class="go">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]]]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="go">2</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">count</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span>
+<span class="go">1</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="extend">
+<h4><span class="section-number">4.3.3.3.5. </span>extend<a class="headerlink" href="#extend" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span>
+<span class="go">[1, 2, 3, 4, 5, 6]</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="index">
+<h4><span class="section-number">4.3.3.3.6. </span>index<a class="headerlink" href="#index" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">knights</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;We&#39;</span><span class="p">,</span> <span class="s1">&#39;are&#39;</span><span class="p">,</span> <span class="s1">&#39;the&#39;</span><span class="p">,</span> <span class="s1">&#39;knights&#39;</span><span class="p">,</span> <span class="s1">&#39;who&#39;</span><span class="p">,</span> <span class="s1">&#39;say&#39;</span><span class="p">,</span> <span class="s1">&#39;ni&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">knights</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;who&#39;</span><span class="p">)</span>
+<span class="go">4</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">knights</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;herring&#39;</span><span class="p">)</span>
+<span class="go">Traceback (innermost last):</span>
+<span class="go">File &quot;&lt;pyshell&gt;&quot;, line 1, in ?</span>
+<span class="go">knights.index(&#39;herring&#39;)</span>
+<span class="go">ValueError: list.index(x): x not in list</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">knights</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
+<span class="go">&#39;who&#39;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="insert">
+<h4><span class="section-number">4.3.3.3.7. </span>insert<a class="headerlink" href="#insert" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">7</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s1">&#39;four&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">numbers</span>
+<span class="go">[1, 2, 3, &#39;four&#39;, 5, 6, 7]</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="pop">
+<h4><span class="section-number">4.3.3.3.8. </span>pop<a class="headerlink" href="#pop" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+<span class="go">3</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span>
+<span class="go">[1, 2]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="go">1</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span>
+<span class="go">[2]</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="remove">
+<h4><span class="section-number">4.3.3.3.9. </span>remove<a class="headerlink" href="#remove" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;to&#39;</span><span class="p">,</span> <span class="s1">&#39;be&#39;</span><span class="p">,</span> <span class="s1">&#39;or&#39;</span><span class="p">,</span> <span class="s1">&#39;not&#39;</span><span class="p">,</span> <span class="s1">&#39;to&#39;</span><span class="p">,</span> <span class="s1">&#39;be&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;be&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span>
+<span class="go">[&#39;to&#39;, &#39;or&#39;, &#39;not&#39;, &#39;to&#39;, &#39;be&#39;]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;bee&#39;</span><span class="p">)</span>
+<span class="go">Traceback (innermost last):</span>
+<span class="go">File &quot;&lt;pyshell&gt;&quot;, line 1, in ?</span>
+<span class="go">x.remove(&#39;bee&#39;)</span>
+<span class="go">ValueError: list.remove(x): x not in list</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="reverse">
+<h4><span class="section-number">4.3.3.3.10. </span>reverse<a class="headerlink" href="#reverse" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span>
+<span class="go">[3, 2, 1]</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="sort">
+<h4><span class="section-number">4.3.3.3.11. </span>sort<a class="headerlink" href="#sort" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span>
+<span class="go">[1, 2, 4, 6, 7, 9]</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;aardvark&#39;</span><span class="p">,</span> <span class="s1">&#39;abalone&#39;</span><span class="p">,</span> <span class="s1">&#39;acme&#39;</span><span class="p">,</span> <span class="s1">&#39;add&#39;</span><span class="p">,</span> <span class="s1">&#39;aerate&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">key</span><span class="o">=</span><span class="nb">len</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span>
+<span class="go">[&#39;add&#39;, &#39;acme&#39;, &#39;aerate&#39;, &#39;abalone&#39;, &#39;aardvark&#39;]</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">x</span>
+<span class="go">[9, 7, 6, 4, 2, 1]</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id15">
+<h3><span class="section-number">4.3.3.4. </span>本章介绍的新函数<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 78%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>函数</p></th>
+<th class="head"><p>描述</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>len(seq)</p></td>
+<td><p>返回序列的长度</p></td>
+</tr>
+<tr class="row-odd"><td><p>list(seq)</p></td>
+<td><p>将序列转换成列表</p></td>
+</tr>
+<tr class="row-even"><td><p>max(args)</p></td>
+<td><p>返回序列或一组参数中的最大值</p></td>
+</tr>
+<tr class="row-odd"><td><p>min(args)</p></td>
+<td><p>返回序列和一组参数中的最小值</p></td>
+</tr>
+<tr class="row-even"><td><p>reversed(seq)</p></td>
+<td><p>让你能够反向迭代序列</p></td>
+</tr>
+<tr class="row-odd"><td><p>sorted(seq)</p></td>
+<td><p>返回一个有序列表，其中包含指定序列中的所有元素</p></td>
+</tr>
+<tr class="row-even"><td><p>tuple(seq)</p></td>
+<td><p>将序列转换为元组</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+</div>
 </div>
 
 
