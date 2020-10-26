@@ -91,7 +91,17 @@
 <li class="toctree-l2"><a class="reference internal" href="1.2.html">4.1. 软件安装</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index3.1.html">4.2. 数据类型：杯子还是水缸，10000还是1的问题?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index3.2.html">4.3. 数据类型：拿什么来装数据？</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">4.4. 字符串：生物就是搞这个的</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">4.4. 字符串：生物就是搞这个的</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">4.4.1. 使用字符串</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id3">4.4.1.1. 字符串的基本操作</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">4.4.1.2. 设置字符串的格式</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id9">4.4.1.3. 字符串方法</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id10">4.4.1.4. 小结</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id11">4.4.2. 本章介绍的新函数</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="index3.4.html">4.5. 条件与循环：计算机就是靠它打败人类的</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index3.5.html">4.6. 函数：抽象的才是精华</a></li>
 <li class="toctree-l2"><a class="reference internal" href="index3.6.html">4.7. 对象：学生最不可告人的想法</a></li>
@@ -174,6 +184,370 @@
             
   <div class="section" id="id1">
 <h1><span class="section-number">4.4. </span>字符串：生物就是搞这个的<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id2">
+<h2><span class="section-number">4.4.1. </span>使用字符串<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id3">
+<h3><span class="section-number">4.4.1.1. </span>字符串的基本操作<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&gt;&gt;&gt; website = &#39;http://www.python.org&#39;
+&gt;&gt;&gt; website[-3:] = &#39;com&#39;
+Traceback (most recent call last):
+File &quot;&lt;pyshell#19&gt;&quot;, line 1, in ?
+website[-3:] = &#39;com&#39;
+TypeError: object doesn&#39;t support slice assignment
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id4">
+<h3><span class="section-number">4.4.1.2. </span>设置字符串的格式<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id5">
+<h4><span class="section-number">4.4.1.2.1. </span>1.2.1 替换字段名<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;</span><span class="si">{foo}</span><span class="s2"> </span><span class="si">{}</span><span class="s2"> </span><span class="si">{bar}</span><span class="s2"> </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">bar</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">foo</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="go">&#39;3 1 4 2&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;</span><span class="si">{foo}</span><span class="s2"> </span><span class="si">{1}</span><span class="s2"> </span><span class="si">{bar}</span><span class="s2"> </span><span class="si">{0}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">bar</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">foo</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="go">&#39;3 2 4 1&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">fullname</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Alfred&quot;</span><span class="p">,</span> <span class="s2">&quot;Smoketoomuch&quot;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;Mr </span><span class="si">{name[1]}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">fullname</span><span class="p">)</span>
+<span class="go">&#39;Mr Smoketoomuch&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">math</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">tmpl</span> <span class="o">=</span> <span class="s2">&quot;The </span><span class="si">{mod.__name__}</span><span class="s2"> module defines the value </span><span class="si">{mod.pi}</span><span class="s2"> for π&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">tmpl</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">mod</span><span class="o">=</span><span class="n">math</span><span class="p">)</span>
+<span class="go">&#39;The math module defines the value 3.141592653589793 for π&#39;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id6">
+<h4><span class="section-number">4.4.1.2.2. </span>1.2.2 基本转换<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{pi!s}</span><span class="s2"> </span><span class="si">{pi!r}</span><span class="s2"> </span><span class="si">{pi!a}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pi</span><span class="o">=</span><span class="s2">&quot;π&quot;</span><span class="p">))</span>
+<span class="go">π &#39;π&#39; &#39;\u03c0&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;The number is </span><span class="si">{num}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">num</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+<span class="go">&#39;The number is 42&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;The number is </span><span class="si">{num:f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">num</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+<span class="go">&#39;The number is 42.000000&#39;</span>
+<span class="go">你也可以将其作为二进制数进行处理。</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;The number is </span><span class="si">{num:b}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">num</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+<span class="go">&#39;The number is 101010&#39;</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p><center><b>字符串格式设置中的类型说明符</b></center></p>
+
+
+     +------+--------------------------------------------------------------+
+     | 类型 | 含义                                                         |
+     +======+==============================================================+
+     | b    | 将整数表示为二进制                                           |
+     +------+--------------------------------------------------------------+
+     | c    | 将整数解读为Unicode码点                                      |
+     +------+--------------------------------------------------------------+
+     | d    | 将整数视为十进制数进行处理，这是整数默认使用的说明符         |
+     +------+--------------------------------------------------------------+
+     | e    | 使用科学表示法来表示小数(用e来表示整数)                      |
+     +------+--------------------------------------------------------------+
+     | E    | 与e相同，但使用E来表示指数                                   |
+     +------+--------------------------------------------------------------+
+     | f    | 将小数表示为定点数                                           |
+     +------+--------------------------------------------------------------+
+     | F    | 与f相同，但对于特殊值(nan和inf)，使用大写表示                |
+     +------+--------------------------------------------------------------+
+     | g    | 自动在定点表示法和科学表示法之间做出                         |
+     |      | 选择。这是默认用于小数的说明符，但在默认情况下至少有1位小数  |
+     +------+--------------------------------------------------------------+
+     | G    | 与g相同，但使用大写来表示指数和特殊值                        |
+     +------+--------------------------------------------------------------+
+     | n    | 与g相同，但插入随区域而异的数字分隔符                        |
+     +------+--------------------------------------------------------------+
+     | o    | 将整数表示为八进制数                                         |
+     +------+--------------------------------------------------------------+
+     | s    | 保持字符串的格式不变，这是默认用于字符串的说明符             |
+     +------+--------------------------------------------------------------+
+     | x    | 将整数表示为十六进制数并使用小写字母                         |
+     +------+--------------------------------------------------------------+
+     | X    | 与x相同，但使用大写字母                                      |
+     +------+--------------------------------------------------------------+
+     | %    | 将                                                           |
+     |      | 数表示为百分比值(乘以100，按说明符f设置格式，再在后面加上1%) |
+     +------+--------------------------------------------------------------+</div>
+<div class="section" id="id7">
+<h4><span class="section-number">4.4.1.2.3. </span>宽度、精度和千位分隔符<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;</span><span class="si">{num:10}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">num</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="go">&#39; 3&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;</span><span class="si">{name:10}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;Bob&quot;</span><span class="p">)</span>
+<span class="go">&#39;Bob</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;Pi day is </span><span class="si">{pi:.2f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pi</span><span class="o">=</span><span class="n">pi</span><span class="p">)</span>
+<span class="go">&#39;Pi day is 3.14&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;</span><span class="si">{pi:10.2f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pi</span><span class="o">=</span><span class="n">pi</span><span class="p">)</span>
+<span class="go">&#39; 3.14&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;</span><span class="si">{:.5}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s2">&quot;Guido van Rossum&quot;</span><span class="p">)</span>
+<span class="go">&#39;Guido&#39;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id8">
+<h4><span class="section-number">4.4.1.2.4. </span>符号、对齐和用0填充<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;</span><span class="si">{:010.2f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pi</span><span class="p">)</span>
+<span class="go">&#39;0000003.14&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>要指定左对齐、右对齐和居中，可分别使用 &lt; 、 &gt; 和 ^ 。
+&gt;&gt;&gt; print(&#39;{0:&lt;10.2f}\n{0:^10.2f}\n{0:&gt;10.2f}&#39;.format(pi))
+3.14
+      3.14
+        3.14
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">使用填充字符来扩充对齐说明符</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="s2">&quot;</span><span class="si">{:$^15}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s2">&quot; WIN BIG &quot;</span><span class="p">)</span>
+<span class="s1">&#39;$$$ WIN BIG $$$&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{0:10.2f}</span><span class="se">\n</span><span class="si">{1:10.2f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pi</span><span class="p">,</span> <span class="o">-</span><span class="n">pi</span><span class="p">))</span>
+<span class="go">3.14</span>
+<span class="go">-3.14</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{0:10.2f}</span><span class="se">\n</span><span class="si">{1:=10.2f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pi</span><span class="p">,</span> <span class="o">-</span><span class="n">pi</span><span class="p">))</span>
+<span class="go">3.14</span>
+<span class="go">- 3.14</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{0:-.2}</span><span class="se">\n</span><span class="si">{1:-.2}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pi</span><span class="p">,</span> <span class="o">-</span><span class="n">pi</span><span class="p">))</span> <span class="c1">#默认设置</span>
+<span class="go">3.1</span>
+<span class="go">-3.1</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{0:+.2}</span><span class="se">\n</span><span class="si">{1:+.2}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pi</span><span class="p">,</span> <span class="o">-</span><span class="n">pi</span><span class="p">))</span>
+<span class="go">+3.1</span>
+<span class="go">-3.1</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">{0: .2}</span><span class="se">\n</span><span class="si">{1: .2}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pi</span><span class="p">,</span> <span class="o">-</span><span class="n">pi</span><span class="p">))</span>
+<span class="go">3.1</span>
+<span class="go">-3.1</span>
+</pre></div>
+</div>
+</div></blockquote>
+<ul>
+<li><p>字符串格式设置示例*</p>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span># 根据指定的宽度打印格式良好的价格列表
+width = int(input(&#39;Please enter width: &#39;))
+price_width = 10
+item_width = width - price_width
+header_fmt = &#39;{{:{}}}{{:&gt;{}}}&#39;.format(item_width, price_width)
+fmt  = &#39;{{:{}}}{{:&gt;{}.2f}}&#39;.format(item_width, price_width)
+print(&#39;=&#39; * width)
+print(header_fmt.format(&#39;Item&#39;, &#39;Price&#39;))
+print(&#39;-&#39; * width)
+print(fmt.format(&#39;Apples&#39;, 0.4))
+print(fmt.format(&#39;Pears&#39;, 0.5))
+print(fmt.format(&#39;Cantaloupes&#39;, 1.92))
+print(fmt.format(&#39;Dried Apricots (16 oz.)&#39;, 8))
+print(fmt.format(&#39;Prunes (4 lbs.)&#39;, 12))
+print(&#39;=&#39; * width)
+这个程序的运行情况类似于下面这样：
+Please enter width: 35
+===================================
+Item Price
+-----------------------------------
+Apples  0.40
+Pears 0.50
+Cantaloupes 1.92
+Dried Apricots (16 oz.) 8.00
+Prunes (4 lbs.)  12.00
+===================================
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id9">
+<h3><span class="section-number">4.4.1.3. </span>字符串方法<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="center">
+<h4><span class="section-number">4.4.1.3.1. </span>center<a class="headerlink" href="#center" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;The Middle by Jimmy Eat World&quot;</span><span class="o">.</span><span class="n">center</span><span class="p">(</span><span class="mi">39</span><span class="p">)</span>
+<span class="go">&#39; The Middle by Jimmy Eat World &#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;The Middle by Jimmy Eat World&quot;</span><span class="o">.</span><span class="n">center</span><span class="p">(</span><span class="mi">39</span><span class="p">,</span> <span class="s2">&quot;*&quot;</span><span class="p">)</span>
+<span class="go">&#39;*****The Middle by Jimmy Eat World*****&#39;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="find">
+<h4><span class="section-number">4.4.1.3.2. </span>find<a class="headerlink" href="#find" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;With a moo-moo here, and a moo-moo there&#39;</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;moo&#39;</span><span class="p">)</span>
+<span class="go">7</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">title</span> <span class="o">=</span> <span class="s2">&quot;Monty Python&#39;s Flying Circus&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">title</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;Monty&#39;</span><span class="p">)</span>
+<span class="go">0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">title</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;Python&#39;</span><span class="p">)</span>
+<span class="go">6</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">title</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;Flying&#39;</span><span class="p">)</span>
+<span class="go">15</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">title</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;Zirquss&#39;</span><span class="p">)</span>
+<span class="go">-1</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="join">
+<h4><span class="section-number">4.4.1.3.3. </span>join<a class="headerlink" href="#join" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&gt;&gt;&gt; seq = [1, 2, 3, 4, 5]
+&gt;&gt;&gt; sep = &#39;+&#39;
+&gt;&gt;&gt; sep.join(seq) # 尝试合并一个数字列表
+Traceback (most recent call last):
+File &quot;&lt;stdin&gt;&quot;, line 1, in ?
+TypeError: sequence item 0: expected string, int found
+&gt;&gt;&gt; seq = [&#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;4&#39;, &#39;5&#39;]
+&gt;&gt;&gt; sep.join(seq) # 合并一个字符串列表
+&#39;1+2+3+4+5&#39;
+&gt;&gt;&gt; dirs = &#39;&#39;, &#39;usr&#39;, &#39;bin&#39;, &#39;env&#39;
+&gt;&gt;&gt; &#39;/&#39;.join(dirs)
+&#39;/usr/bin/env&#39;
+&gt;&gt;&gt; print(&#39;C:&#39; + &#39;\\&#39;.join(dirs))
+C:\usr\bin\env
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="lower">
+<h4><span class="section-number">4.4.1.3.4. </span>lower<a class="headerlink" href="#lower" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;Trondheim Hammer Dance&#39;</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+<span class="go">&#39;trondheim hammer dance&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="k">if</span> <span class="s1">&#39;Gumby&#39;</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;gumby&#39;</span><span class="p">,</span> <span class="s1">&#39;smith&#39;</span><span class="p">,</span> <span class="s1">&#39;jones&#39;</span><span class="p">]:</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Found it!&#39;</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="go">&gt;&gt;&gt;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Gumby&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;gumby&#39;</span><span class="p">,</span> <span class="s1">&#39;smith&#39;</span><span class="p">,</span> <span class="s1">&#39;jones&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">if</span> <span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Found it!&#39;</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="go">Found it!</span>
+<span class="go">&gt;&gt;&gt;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="replace">
+<h4><span class="section-number">4.4.1.3.5. </span>replace<a class="headerlink" href="#replace" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;This is a test&#39;</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;is&#39;</span><span class="p">,</span> <span class="s1">&#39;eez&#39;</span><span class="p">)</span>
+<span class="go">&#39;Theez eez a test&#39;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="split">
+<h4><span class="section-number">4.4.1.3.6. </span>split<a class="headerlink" href="#split" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;1+2+3+4+5&#39;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;+&#39;</span><span class="p">)</span>
+<span class="go">[&#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;4&#39;, &#39;5&#39;]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;/usr/bin/env&#39;</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span>
+<span class="go">[&#39;&#39;, &#39;usr&#39;, &#39;bin&#39;, &#39;env&#39;]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;Using the default&#39;</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+<span class="go">[&#39;Using&#39;, &#39;the&#39;, &#39;default&#39;]</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="strip">
+<h4><span class="section-number">4.4.1.3.7. </span>strip<a class="headerlink" href="#strip" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39; internal whitespace is kept &#39;</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+<span class="go">&#39;internal whitespace is kept&#39;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;gumby&#39;</span><span class="p">,</span> <span class="s1">&#39;smith&#39;</span><span class="p">,</span> <span class="s1">&#39;jones&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;gumby &#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">if</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Found it!&#39;</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">if</span> <span class="n">name</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Found it!&#39;</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="go">Found it!</span>
+<span class="go">&gt;&gt;&gt;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>你还可在一个字符串参数中指定要删除哪些字符。
+&gt;&gt;&gt; &#39;*** SPAM * for * everyone!!! ***&#39;.strip(&#39; *!&#39;)
+&#39;SPAM * for * everyone&#39;
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="translate">
+<h4><span class="section-number">4.4.1.3.8. </span>translate<a class="headerlink" href="#translate" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">table</span> <span class="o">=</span> <span class="nb">str</span><span class="o">.</span><span class="n">maketrans</span><span class="p">(</span><span class="s1">&#39;cs&#39;</span><span class="p">,</span> <span class="s1">&#39;kz&#39;</span><span class="p">,</span> <span class="s1">&#39; &#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;this is an incredible test&#39;</span><span class="o">.</span><span class="n">translate</span><span class="p">(</span><span class="n">table</span><span class="p">)</span>
+<span class="go">&#39;thizizaninkredibletezt&#39;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id10">
+<h3><span class="section-number">4.4.1.4. </span>小结<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>本章介绍了字符串的两个重要方面。
+ 1.字符串格式设置：求模运算符（ % ）可用于将值合并为包含转换标志（如 s % ）的字符串，
+这让你能够以众多方式设置值的格式，如左对齐或右对齐，指定字段宽度和精度，添加
+符号（正号或负号）以及在左边填充0等。
+ 2.字符串方法：字符串有很多方法，有些很有用（如 split 和 join ），有些很少用到（如 istitle
+和 capitalize ）。
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id11">
+<h2><span class="section-number">4.4.2. </span>本章介绍的新函数<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 38%" />
+<col style="width: 62%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>函数</p></th>
+<th class="head"><p>描述</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>string.capwords(s[,sep])</p></td>
+<td><p>使用split根据sep拆分s,将每项的首
+字母大写，再以空格为分隔符将他们结合起来</p></td>
+</tr>
+<tr class="row-odd"><td><p>ascii(obj)</p></td>
+<td><p>创建指定对象的ASCII表示</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
 </div>
 
 
