@@ -1,0 +1,1418 @@
+
+1. Appl Environ Microbiol. 2021 Sep 29:AEM0032121. doi: 10.1128/AEM.00321-21. [Epub 
+ahead of print]
+
+Efficient one-step biocatalytic multienzyme cascade strategy for direct
+conversion of phytosterol to C17-hydroxylated steroids.
+
+Tang R(1), Ren X(1), Xia M(1), Shen Y(1)(2), Tu L(1), Luo J(1), Zhang Q(1), Wang 
+Y(1), Ji P(1), Wang M(1)(2).
+
+Author information: 
+(1)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin, 300457, China.
+(2)Tianjin Engineering Research Center of Microbial Metabolism and Fermentation
+Process Control, 300457, Tianjin, China.
+
+Steroidal 17-carbonyl reduction is crucial to the production of natural bioactive
+steroid medicines, boldenone (BD) is one of the important C17-hydroxylated
+steroids. Although efforts have been made to produce BD through
+biotransformation, the challenge of complex transformation process, high
+substrates cost, and low catalytic efficiencies have yet to be mastered.
+Phytosterol (PS) is the most widely accepted substrate for the production of
+steroid medicines due to its similar foundational structure and ubiquitous
+sources. 17β-Hydroxysteroid dehydrogenase (17βHSD) and its native electron donor 
+play significant roles in the 17β-carbonyl reduction reaction of steroids. In
+this study, we bridged 17βHSD with a cofactor regeneration strategy in
+Mycobacterium neoaurum to establish a one-step biocatalytic carbonyl reduction
+strategy for efficient biosynthesis of BD from PS for the first time. After
+investigating different intracellular electron transfer strategies, we rationally
+designed the engineered strain with co-expression of 17βhsd and
+glucose-6-phosphate dehydrogenase (G6PDH) gene in M. neoaurum. With establishment
+of an intracellular cofactor regeneration strategy, the ratio of [NADPH]/[NADP+] 
+was maintained at a relatively high level, the yield of BD increased from 17% (in
+MNR M3M-ayr1S.c) to 78% (in MNR M3M-ayr1&g6p with glucose supplementation), and
+the productivity was increased by 6.5 times. Furthermore, under the optimal
+glucose supplementation condition, the yield of BD reached 82%, which is the
+highest yield reported by transformation from PS with one-step. This study
+demonstrated an excellent strategy for production of many other valuable carbonyl
+reduction steroidal products from natural cheap raw materials. Importance Steroid
+C17-carbonyl reduction is one of the important transformations for the production
+of valuable steroidal medicines or intermediates for further synthesis of
+steroidal medicines, but it remains a challenge through either chemical or
+biological synthesis. Phytosterol can be obtained from low-cost residue of waste 
+natural materials, and it is preferred as the economical and applicable substrate
+for steroid medicines production by Mycobacterium. This study explored a green
+and efficient one-step biocatalytic carbonyl reduction strategy for direct
+conversion of phytosterol to C17-hydroxylated steroids by bridging
+17β-Hydroxysteroid dehydrogenase with a cofactor regeneration strategy in
+Mycobacterium neoaurum. This work has practical value for the production of many 
+valuable hydroxylated steroids from natural cheap raw materials.
+
+DOI: 10.1128/AEM.00321-21 
+PMID: 34586911 
+
+
+2. Food Sci Nutr. 2021 Jun 18;9(8):4375-4384. doi: 10.1002/fsn3.2409. eCollection
+2021 Aug.
+
+Unraveling the metabolic network of organic acids in solid-state fermentation of 
+Chinese cereal vinegar.
+
+Wu Y(1), Xia M(1)(2), Zhang X(1), Li X(1), Zhang R(3), Yan Y(2), Lang F(2), Zheng
+Y(1)(2), Wang M(1).
+
+Author information: 
+(1)State Key Laboratory of Food Nutrition and Safety Key Laboratory of Industrial
+Fermentation Microbiology Ministry of Education College of Biotechnology Tianjin 
+University of Science & Technology Tianjin China.
+(2)Shanxi Province Key Laboratory of Vinegar Fermentation Science and Engineering
+Shanxi Zilin Vinegar Industry Co., Ltd. Taiyuan China.
+(3)Tianjin Tianli Duliu Mature Vinegar Co., Ltd. Tianjin China.
+
+Shanxi aged vinegar (SAV) is fermented by multispecies microorganism with
+solid-state fermentation (SSF) technology, which contains a variety of organic
+acids. However, the metabolic network of them in SSF is still unclear. In this
+study, metagenomics technology was used to reveal the microbial community and
+functional genes in SAV fermentation. The metabolic network of key organic acids 
+with taste active value higher than 1 was reconstructed for the first time,
+including acetate, lactate, malate, citrate, succinate, and tartrate. The results
+show pyruvate is the core compound in the metabolic network of organic acids.
+Metabolic pathway of acetate plays a pivotal role in this network, and acetate
+has regulatory function on metabolism of other organic acids. Acetobacter and
+Lactobacillus are the predominant genera for organic acid metabolism in SSF of
+SAV. This is also the first report on metabolic network of organic acids in
+cereal vinegar, adding new knowledge on the flavor substance metabolism during
+multispecies fermentation of traditional fermented food.
+
+© 2021 The Authors. Food Science & Nutrition published by Wiley Periodicals LLC.
+
+DOI: 10.1002/fsn3.2409 
+PMCID: PMC8358386
+PMID: 34401086 
+
+Conflict of interest statement: The authors declare that they do not have any
+conflict of interest.
+
+
+3. Food Res Int. 2021 Jul;145:110400. doi: 10.1016/j.foodres.2021.110400. Epub 2021 
+May 11.
+
+Metabolic profile of main organic acids and its regulatory mechanism in
+solid-state fermentation of Chinese cereal vinegar.
+
+Wu Y(1), Xia M(1), Zhao N(1), Tu L(1), Xue D(1), Zhang X(1), Zhao C(1), Cheng
+Y(1), Zheng Y(2), Wang M(3).
+
+Author information: 
+(1)State Key Laboratory of Food Nutrition and Safety. Key Laboratory of
+Industrial Fermentation Microbiology, Ministry of Education. College of
+Biotechnology, Tianjin University of Science and Technology, Tianjin 300457,
+People's Republic of China.
+(2)State Key Laboratory of Food Nutrition and Safety. Key Laboratory of
+Industrial Fermentation Microbiology, Ministry of Education. College of
+Biotechnology, Tianjin University of Science and Technology, Tianjin 300457,
+People's Republic of China. Electronic address: yuzheng@tust.edu.cn.
+(3)State Key Laboratory of Food Nutrition and Safety. Key Laboratory of
+Industrial Fermentation Microbiology, Ministry of Education. College of
+Biotechnology, Tianjin University of Science and Technology, Tianjin 300457,
+People's Republic of China. Electronic address: minw@tust.edu.cn.
+
+Shanxi aged vinegar (SAV), a traditional Chinese cereal vinegar, is produced
+using solid-state fermentation (SSF) technology. Organic acids are the key flavor
+compounds of vinegar. However, the metabolic mechanism of organic acids during
+SSF process is still unclear. In this study, metatranscriptomics was used to
+explore the metabolic profile of main organic acids in SSF. The results show that
+carbon metabolism is the dominant pathway during fermentation, among which
+pyruvate metabolism, glycolysis and starch and sucrose metabolism associated with
+organic acids were the most abundant. The metabolic pathways of acetic acid and
+lactic acid shift from acetyl-P and pyruvate pathways at early and middle-early
+stages of fermentation to acetaldehyde and L-lactaldehyde pathways at later
+stages, respectively, and Lactobacillus and Acetobacter are the predominant
+microorganisms contributed to them. Temperature and acetic acid are proven to be 
+the environmental factors that regulate the metabolic activity during SSF. This
+study sheds new lights on metabolism of flavor substances in the spontaneous
+ecosystems of traditional fermented food.
+
+Copyright © 2021 Elsevier Ltd. All rights reserved.
+
+DOI: 10.1016/j.foodres.2021.110400 
+PMID: 34112403  [Indexed for MEDLINE]
+
+
+4. Food Chem. 2021 Sep 1;355:129444. doi: 10.1016/j.foodchem.2021.129444. Epub 2021 
+Mar 3.
+
+Formation mechanisms and characterisation of the typical polymers in melanoidins 
+from vinegar, coffee and model experiments.
+
+Wang Z(1), Zhang Z(2), Li S(2), Zhang X(2), Xia M(2), Xia T(2), Wang M(3).
+
+Author information: 
+(1)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, College of Biotechnology, Tianjin
+University of Science and Technology, Tianjin, China; College of Public Health,
+Zunyi Medical University, Zunyi 563000, China.
+(2)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, College of Biotechnology, Tianjin
+University of Science and Technology, Tianjin, China.
+(3)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, College of Biotechnology, Tianjin
+University of Science and Technology, Tianjin, China. Electronic address:
+minw@tust.edu.cn.
+
+Melanoidins, are of increasing interest for their potential biological
+activities. However, little knowledge is available on their structure. In the
+present study, vinegar, coffee and model melanoidins were degraded by NaBH4, and 
+the resultant reaction products were characterised by chromatography, mass
+spectrometry and spectrometry methods to elucidate the mechanism of formation of 
+melanoidin skeleton molecules. The study identified a typical polymer with a
+molecular weight (MW) interval of 74 Da, which was polymerised by aldol
+condensation and reduced by NaBH4, followed by intermolecular dehydration. MW of 
+the theoretically derived typical polymers matched the detected polymers,
+validating the speculated pathway involved in the formation of melanoidins
+skeleton molecules. The study also revealed that melanoidins from different
+sources contain polymers with the same MW and different binding preferences,
+contributing to the heterogeneity of melanoidins. Overall, these findings
+indicated that the identified polymers could be used as potential candidate
+biomarkers for melanoidins.
+
+Copyright © 2021 Elsevier Ltd. All rights reserved.
+
+DOI: 10.1016/j.foodchem.2021.129444 
+PMID: 33780797  [Indexed for MEDLINE]
+
+
+5. Front Microbiol. 2021 Jan 28;11:603721. doi: 10.3389/fmicb.2020.603721.
+eCollection 2020.
+
+Bioaugmentation by Pediococcus acidilactici AAF1-5 Improves the Bacterial
+Activity and Diversity of Cereal Vinegar Under Solid-State Fermentation.
+
+Zhang Q(1), Zhao C(1), Wang X(1), Li X(1), Zheng Y(1), Song J(1), Xia M(1), Zhang
+R(2), Wang M(1).
+
+Author information: 
+(1)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, College of Biotechnology, Ministry of
+Education, Tianjin University of Science and Technology, Tianjin, China.
+(2)Tianjin Tianli Duliu Mature Vinegar Co., Ltd., Tianjin, China.
+
+Bioaugmentation technology may be an effective strategy to improve the
+solid-state fermentation rate and utilization of raw materials for traditional
+vinegar production. The relationship between bacteria and fermentation process
+was analyzed to rationally design and perform bioaugmented solid-state
+fermentation of the Tianjin Duliu mature vinegar (TDMV). Fermentation process was
+highly correlated with Acetobacter, Lactobacillus, and Pediococcus contents,
+which were the core functional microorganisms in TDMV fermentation. Pediococcus
+acidilactici AAF1-5 was selected from 20 strains to fortify the fermentation due 
+to its acidity and thermal tolerance. Bioaugmentation was performed in the upper 
+layer of TDMV fermentation. P. acidilactici AAF1-5 colonized and then spread into
+the lower layer to improve the fermentation. Result showed that the fermentation 
+period was 5 days less than that of the control. Meanwhile, the non-volatile
+acid, lactic acid, amino nitrogen, and reducing sugar contents in the
+bioaugmented TDMV increased by 53%, 14%, 32%, and 36%, respectively, compared
+with those in the control. Bioaugmentation with P. acidilactici AAF1-5 not only
+improved the utilization of starch from 79% to 83% but also increased the
+bacterial community diversity.
+
+Copyright © 2021 Zhang, Zhao, Wang, Li, Zheng, Song, Xia, Zhang and Wang.
+
+DOI: 10.3389/fmicb.2020.603721 
+PMCID: PMC7876233
+PMID: 33584567 
+
+Conflict of interest statement: RZ was employed by the company Tianjin Tianli
+Duliu Mature Vinegar Co., Ltd. The remaining authors declare that the research
+was conducted in the absence of any commercial or financial relationships that
+could be construed as a potential conflict of interest.
+
+
+6. Food Microbiol. 2021 May;95:103684. doi: 10.1016/j.fm.2020.103684. Epub 2020 Nov 
+26.
+
+Metabolic network of ammonium in cereal vinegar solid-state fermentation and its 
+response to acid stress.
+
+Sankuan X(1), Cuimei Z(1), Bingqian F(1), Yu Z(2), Menglei X(1), Linna T(1), Jia 
+S(1), Xinyi Z(1), Min W(3).
+
+Author information: 
+(1)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, Ministry of Education, College of
+Biotechnology, Tianjin University of Science & Technology, Tianjin, 300457,
+People's Republic of China.
+(2)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, Ministry of Education, College of
+Biotechnology, Tianjin University of Science & Technology, Tianjin, 300457,
+People's Republic of China. Electronic address: yuzheng@tust.edu.cn.
+(3)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, Ministry of Education, College of
+Biotechnology, Tianjin University of Science & Technology, Tianjin, 300457,
+People's Republic of China. Electronic address: minw@tust.edu.cn.
+
+Shanxi aged vinegar (SAV), a Chinese traditional vinegar, is produced by various 
+microorganisms. Ammonium is an important nitrogen source for microorganisms and a
+key intermediate for the utilization of non-ammonium nitrogen sources. In this
+work, an ammonium metabolic network during SAV fermentation was constructed
+through the meta-transcriptomic analysis of in situ samples, and the potential
+mechanism of acid affecting ammonium metabolism was revealed. The results showed 
+that ammonium was enriched as the acidity increased. Meta-transcriptomic analysis
+showed that the conversion of glutamine to ammonia is the key pathway of ammonium
+metabolism in vinegar and that Lactobacillus and Acetobacter are the dominant
+genera. The construction and analysis of the metabolic network showed that amino 
+acid metabolism, nucleic acid metabolism, pentose phosphate pathway and energy
+metabolism were enhanced to resist acid damage to the intracellular environment
+and cell structures. The enhancement of nitrogen assimilation provides nitrogen
+for metabolic pathways that resist acid cytotoxicity. In addition, the
+concentration gradient allows ammonium to diffuse outside the cell, which causes 
+ammonium to accumulate during fermentation.
+
+Copyright © 2020 Elsevier Ltd. All rights reserved.
+
+DOI: 10.1016/j.fm.2020.103684 
+PMID: 33397616  [Indexed for MEDLINE]
+
+
+7. Biotechnol Biofuels. 2020 Jun 24;13:111. doi: 10.1186/s13068-020-01751-7.
+eCollection 2020.
+
+Development of optimal steam explosion pretreatment and highly effective cell
+factory for bioconversion of grain vinegar residue to butanol.
+
+Xia M(1)(2), Peng M(1)(2), Xue D(1)(2), Cheng Y(1)(2), Li C(1)(2), Wang D(1)(2), 
+Lu K(1)(2), Zheng Y(1)(2), Xia T(1)(2), Song J(1)(2), Wang M(1)(2).
+
+Author information: 
+(1)State Key Laboratory of Food Nutrition and Safety, Ministry of Education,
+Tianjin Engineering Research Center of Microbial Metabolism and Fermentation
+Process Control, College of Biotechnology, Tianjin University of Science and
+Technology, Tianjin, 300457 China.
+(2)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Engineering Research Center of Microbial Metabolism and Fermentation
+Process Control, College of Biotechnology, Tianjin University of Science and
+Technology, Tianjin, 300457 China.
+
+Background: The industrial vinegar residue (VR) from solid-state fermentation,
+mainly cereals and their bran, will be a potential feedstock for future biofuels 
+because of their low cost and easy availability. However, utilization of VR for
+butanol production has not been as much optimized as other sources of
+lignocellulose, which mainly stem from two key elements: (i) high biomass
+recalcitrance to enzymatic sugar release; (ii) lacking of suitable industrial
+biobutanol production strain. Though steam explosion has been proved effective
+for bio-refinery, few studies report SE for VR pretreatment. Much of the relevant
+knowledge remains unknown. Meanwhile, recent efforts on rational metabolic
+engineering approaches to increase butanol production in Clostridium strain are
+quite limited. In this study, we assessed the impact of SE pretreatment,
+enzymatic hydrolysis kinetics, overall sugar recovery and applied atmospheric and
+room temperature plasma (ARTP) mutant method for the Clostridium strain
+development to solve the long-standing problem.
+Results: SE pretreatment was first performed. At the optimal condition, 29.47% of
+glucan, 71.62% of xylan and 22.21% of arabinan were depolymerized and obtained in
+the water extraction. In the sequential enzymatic hydrolysis process, enzymatic
+hydrolysis rate was increased by 13-fold compared to the VR without pretreatment 
+and 19.60 g glucose, 15.21 g xylose and 5.63 g arabinose can be obtained after
+the two-step treatment from 100 g VR. Porous properties analysis indicated that
+steam explosion can effectively generate holes with diameter within 10-20 nm.
+Statistical analysis proved that enzymatic hydrolysis rate of VR followed the
+Pseudop-second-order kinetics equation and the relationship between SE severity
+and enzymatic hydrolysis rate can be well revealed by Boltzmann model. Finally, a
+superior inhibitor-tolerant strain, Clostridium acetobutylicum Tust-001, was
+generated with ARTP treatment. The water extraction and enzymolysis liquid
+gathered were successfully fermented, resulting in butanol titer of 7.98 g/L and 
+12.59 g/L of ABE.
+Conclusions: SE proved to be quite effective for VR due to high fermentable sugar
+recovery and enzymatic hydrolysate fermentability. Inverse strategy employing
+ARTP and repetitive domestication for strain breeding is quite feasible,
+providing us with a new tool for solving the problem in the biofuel fields.
+
+© The Author(s) 2020.
+
+DOI: 10.1186/s13068-020-01751-7 
+PMCID: PMC7315531
+PMID: 32595760 
+
+Conflict of interest statement: Competing interestsThe authors declare that they 
+have no competing interests.
+
+
+8. Biosens Bioelectron. 2020 Sep 1;163:112269. doi: 10.1016/j.bios.2020.112269. Epub
+2020 May 18.
+
+Global regulator engineering enhances bioelectricity generation in Pseudomonas
+aeruginosa-inoculated MFCs.
+
+Luo J(1), Li X(2), Zhang J(2), Feng A(2), Xia M(2), Zhou M(3).
+
+Author information: 
+(1)Key Laboratory of Industrial Fermentation Microbiology (Tianjin University of 
+Science &Technology), Ministry of Education, Tianjin Key Lab of Industrial
+Microbiology, College of Biotechnology, Tianjin University of Science and
+Technology, Tianjin, 300457, PR China. Electronic address:
+luojianmei@tust.edu.cn.
+(2)Key Laboratory of Industrial Fermentation Microbiology (Tianjin University of 
+Science &Technology), Ministry of Education, Tianjin Key Lab of Industrial
+Microbiology, College of Biotechnology, Tianjin University of Science and
+Technology, Tianjin, 300457, PR China.
+(3)Key Laboratory of Pollution Process and Environmental Criteria, Ministry of
+Education, Tianjin Key Laboratory of Urban Ecology Environmental Remediation and 
+Pollution Control, College of Environmental Science and Engineering, Nankai
+University, Tianjin, 300350, PR China. Electronic address: zhoumh@nankai.edu.cn.
+
+The electricigens with high-electroactivity is essential for resolving the low
+electricity power output (EPT) of microbial fuel cells (MFCs). However, the
+manipulation by single functional genes shows limitation because electroactivity 
+is a complex phenotype controlled by multiple genes. Herein, global regulator
+engineering (GRE) was developed to optimize the electroactivity of an isolated
+strain (Pseudomonas aeruginosa P3-A-11) using an exogenous global regulator IrrE 
+(ionizing radiation resistance E linkage group) as an object. The GRE was
+implemented through in vitro random mutagenesis by error-prone PCR and in vivo
+high-through screening comprised of cultures color assay, PYO measurement and
+MFCs operation. Four mutants with higher electroactivity were obtained, among
+which, the mutant 11/M2-59 not only displayed the maximal power density, but also
+exhibited stronger salt tolerance, consequently showing good performance of MFCs 
+in the presence of salt. Apart from the reduced internal resistance, the increase
+in phenazines amounts primarily contributed to EPT improvement, which was
+realized by enhancing the core biosynthesis pathway and affecting other pathways 
+(such as central metabolism pathway, quorum sensing system, regulatory network). 
+Notably, IrrE exerted its positive effect on electroactivity even without native 
+regulators (such as PmpR and RpoS). In addition, the significant fluctuations in 
+expression levels of stress-responsive genes mediated by GRE were closely
+associated with the enhanced salt tolerance. This work demonstrated that GRE was 
+an effective approach for simultaneously optimizing multiple phenotypes (such as 
+electroactivity and stress tolerance), and thus would provide more opportunities 
+to create high-efficiency electricigens and further promoted the practical
+application of MFCs.
+
+Copyright © 2020 Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.bios.2020.112269 
+PMID: 32568691  [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of competing interest The authors
+declare that they have no known competing financial interests or personal
+relationships that could have appeared to influence the work reported in this
+paper.
+
+
+9. Appl Environ Microbiol. 2020 Jul 20;86(15). pii: e00441-20. doi:
+10.1128/AEM.00441-20. Print 2020 Jul 20.
+
+The Sterol Carrier Hydroxypropyl-β-Cyclodextrin Enhances the Metabolism of
+Phytosterols by Mycobacterium neoaurum.
+
+Su L(#)(1)(2), Xu S(#)(1)(2), Shen Y(3)(2), Xia M(1)(2), Ren X(1)(2), Wang
+L(1)(2), Shang Z(1)(2), Wang M(3)(2).
+
+Author information: 
+(1)Key Laboratory of Industrial Fermentation Microbiology (Tianjin University of 
+Science and Technology), Ministry of Education, Tianjin, People's Republic of
+China.
+(2)Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science and Technology, Tianjin, People's Republic of
+China.
+(3)Key Laboratory of Industrial Fermentation Microbiology (Tianjin University of 
+Science and Technology), Ministry of Education, Tianjin, People's Republic of
+China shenyb@tust.edu.cn minw@tust.edu.cn.
+(#)Contributed equally
+
+Androst-4-ene-3,17-dione (AD) and androst-1,4-diene-3,17-dione (ADD) are valuable
+steroid pharmaceutical intermediates obtained by soybean phytosterol
+biotransformation by Mycobacterium Cyclodextrins (CDs) are generally believed to 
+be carriers for phytosterol delivery and can improve the production of AD and ADD
+due to their effects on steroid solubilization and alteration in cell wall
+permeability for steroids. To better understand the mechanisms of CD promotion,
+we performed proteomic quantification of the effects of hydroxypropyl-β-CD
+(HP-β-CD) on phytosterol metabolism in Mycobacterium neoaurum TCCC 11978 C2.
+Perturbations are observed in steroid catabolism and glucose metabolism by adding
+HP-β-CD in a phytosterol bioconversion system. AD and ADD, as metabolic products 
+of phytosterol, are toxic to cells, with inhibited cell growth and biocatalytic
+activity. Treatment of mycobacteria with HP-β-CD relieves the inhibitory effect
+of AD(D) on the electron transfer chain and cell growth. These results
+demonstrate the positive relationship between HP-β-CD and phytosterol metabolism 
+and give insight into the complex functions of CDs as mediators of the regulation
+of sterol metabolism.IMPORTANCE Phytosterols from soybean are low-cost
+by-products of soybean oil production and, owing to their good bioavailability in
+mycobacteria, are preferred as the substrates for steroid drug production via
+biotransformation by Mycobacterium However, the low level of production of
+steroid hormone drugs due to the low aqueous solubility (below 0.1 mmol/liter) of
+phytosterols limits the commercial use of sterol-transformed strains. To improve 
+the bioconversion of steroids, cyclodextrins (CDs) are generally used as an
+effective carrier for the delivery of hydrophobic steroids to the bacterium. CDs 
+improve the biotransformation of steroids due to their effects on steroid
+solubilization and alterations in cell wall permeability for steroids. However,
+studies have rarely reported the effects of CDs on cell metabolic pathways
+related to sterols. In this study, the effects of hydroxypropyl-β-CD (HP-β-CD) on
+the expression of enzymes related to steroid catabolic pathways in Mycobacterium 
+neoaurum were systematically investigated. These findings will improve our
+understanding of the complex functions of CDs in the regulation of sterol
+metabolism and guide the application of CDs to sterol production.
+
+Copyright © 2020 American Society for Microbiology.
+
+DOI: 10.1128/AEM.00441-20 
+PMCID: PMC7376554
+PMID: 32414803  [Indexed for MEDLINE]
+
+
+10. Bioresour Technol. 2020 Aug;309:123307. doi: 10.1016/j.biortech.2020.123307. Epub
+2020 Apr 5.
+
+Efficient repeated batch production of androstenedione using untreated cane
+molasses by Mycobacterium neoaurum driven by ATP futile cycle.
+
+Zhou X(1), Zhang Y(2), Shen Y(1), Zhang X(1), Zan Z(1), Xia M(1), Luo J(1), Wang 
+M(3).
+
+Author information: 
+(1)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin 300457, China.
+(2)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin 300457, China; College of
+Life Science, Liaocheng University, Liaocheng, Shandong 252059, China. Electronic
+address: zhy@lcu.edu.cn.
+(3)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin 300457, China. Electronic
+address: minw@tust.edu.cn.
+
+The biotransformation of phytosterol to androstenedione (AD) by mycobacteria is a
+unique process accompanied by energy-producing. However, high intracellular ATP
+content can severely inhibit the efficient production of AD. In this study, a
+novel citrate-based ATP futile cycle (AFC) and pyruvate-based AFC were
+constructed for the first time. Application of AFCs reduced intracellular ATP and
+propionyl-CoA levels and increased NAD+/NADH ratios and cell viability. The
+forced consumption of ATP promotes the transcription of critical genes in
+propionyl-CoA metabolism. The synergistic effect of enhanced propionyl-CoA
+metabolism and AFC increased AD conversion yield from 60.6% to 97.3%. The AD
+productivity was further improved by repeated batch fermentation using untreated 
+cane molasses. The maximum productivity was 181% higher than that of the original
+strain. Therefore, the strategy of combining AFC and repeated batch fermentation 
+is a valuable tool for the efficient and low-cost production of AD and other
+steroidal pharmaceutical precursors.
+
+Copyright © 2020 Elsevier Ltd. All rights reserved.
+
+DOI: 10.1016/j.biortech.2020.123307 
+PMID: 32315913  [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of Competing Interest The authors
+declare that they have no known competing financial interests or personal
+relationships that could have appeared to influence the work reported in this
+paper.
+
+
+11. Sci Rep. 2020 Mar 9;10(1):4329. doi: 10.1038/s41598-020-61349-9.
+
+Isolation, characterisation, and genome sequencing of Rhodococcus equi: a novel
+strain producing chitin deacetylase.
+
+Ma Q(#)(1), Gao X(#)(2), Bi X(1), Tu L(1), Xia M(1), Shen Y(3), Wang M(4).
+
+Author information: 
+(1)Key Laboratory of Industrial Fermentation Microbiology (Tianjin University of 
+Science & Technology), Ministry of Education, Tianjin Key Lab of Industrial
+Microbiology, College of Biotechnology, Tianjin University of Science and
+Technology, Tianjin, 300457, P.R. China.
+(2)School of Life Science, Shandong University of Technology, Zibo, 255049,
+China.
+(3)Key Laboratory of Industrial Fermentation Microbiology (Tianjin University of 
+Science & Technology), Ministry of Education, Tianjin Key Lab of Industrial
+Microbiology, College of Biotechnology, Tianjin University of Science and
+Technology, Tianjin, 300457, P.R. China. shenyb@tust.edu.cn.
+(4)Key Laboratory of Industrial Fermentation Microbiology (Tianjin University of 
+Science & Technology), Ministry of Education, Tianjin Key Lab of Industrial
+Microbiology, College of Biotechnology, Tianjin University of Science and
+Technology, Tianjin, 300457, P.R. China. minw@tust.edu.cn.
+(#)Contributed equally
+
+Chitin deacetylase (CDA) can hydrolyse the acetamido group of chitin polymers to 
+produce chitosans, which are used in various fields including the biomedical and 
+pharmaceutical industries, food production, agriculture, and water treatment. CDA
+represents a more environmentally-friendly and easier to control alternative to
+the chemical methods currently utilised to produce chitosans from chitin;
+however, the majority of identified CDAs display activity toward
+low-molecular-weight oligomers and are essentially inactive toward polymeric
+chitin or chitosans. Therefore, it is important to identify novel CDAs with
+activity toward polymeric chitin and chitosans. In this study, we isolated the
+bacterium Rhodococcus equi F6 from a soil sample and showed that it expresses a
+novel CDA (ReCDA), whose activity toward 4-nitroacetanilide reached 19.20 U/mL/h 
+during fermentation and was able to deacetylate polymeric chitin, colloidal
+chitin, glycol-chitin, and chitosan. Whole genome sequencing revealed that ReCDA 
+is unique to the R. equi F6 genome, while phylogenetic analysis indicated that
+ReCDA is evolutionarily distant from other CDAs. In conclusion, ReCDA isolated
+from the R. equi F6 strain expands the known repertoire of CDAs and could be used
+to deacetylate polymeric chitosans and chitin in industrial applications.
+
+DOI: 10.1038/s41598-020-61349-9 
+PMCID: PMC7062688
+PMID: 32152368  [Indexed for MEDLINE]
+
+
+12. Microb Cell Fact. 2020 Jan 28;19(1):13. doi: 10.1186/s12934-020-1285-8.
+
+Improving phytosterol biotransformation at low nitrogen levels by enhancing the
+methylcitrate cycle with transcriptional regulators PrpR and GlnR of
+Mycobacterium neoaurum.
+
+Zhang Y(1)(2), Zhou X(3), Wang X(3), Wang L(3), Xia M(3), Luo J(3), Shen Y(4),
+Wang M(5).
+
+Author information: 
+(1)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin, 300457, China.
+zhy@lcu.edu.cn.
+(2)College of Life Science, Liaocheng University, Liaocheng, 252059, Shandong,
+China. zhy@lcu.edu.cn.
+(3)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin, 300457, China.
+(4)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin, 300457, China.
+shenyb@tust.edu.cn.
+(5)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin, 300457, China.
+minw@tust.edu.cn.
+
+BACKGROUND: Androstenedione (AD) is an important steroid medicine intermediate
+that is obtained via the degradation of phytosterols by mycobacteria. The
+production process of AD is mainly the degradation of the phytosterol aliphatic
+side chain, which is accompanied by the production of propionyl CoA. Excessive
+accumulation of intracellular propionyl-CoA produces a toxic effect in
+mycobacteria, which restricts the improvement of production efficiency. The
+2-methylcitrate cycle pathway (MCC) plays a significant role in the
+detoxification of propionyl-CoA in bacterial. The effect of the MCC on
+phytosterol biotransformation in mycobacteria has not been elucidated in detail. 
+Meanwhile, reducing fermentation cost has always been an important issue to be
+solved in the optimizing of the bioprocess.
+RESULTS: There is a complete MCC in Mycobacterium neoaurum (MNR), prpC, prpD and 
+prpB in the prp operon encode methylcitrate synthase, methylcitrate dehydratase
+and methylisocitrate lyase involved in MCC, and PrpR is a specific
+transcriptional activator of prp operon. After the overexpression of prpDCB and
+prpR in MNR, the significantly improved transcription levels of prpC, prpD and
+prpB were observed. The highest conversion ratios of AD obtained by MNR-prpDBC
+and MNR-prpR increased from 72.3 ± 2.5% to 82.2 ± 2.2% and 90.6 ± 2.6%,
+respectively. Through enhanced the PrpR of MNR, the in intracellular
+propionyl-CoA levels decreased by 43 ± 3%, and the cell viability improved by
+22 ± 1% compared to MNR at 96 h. The nitrogen transcription regulator GlnR
+repressed prp operon transcription in a nitrogen-limited medium. The glnR
+deletion enhanced the transcription level of prpDBC and the biotransformation
+ability of MNR. MNR-prpR/ΔglnR was constructed by the overexpression of prpR in
+the glnR-deleted strain showed adaptability to low nitrogen. The highest AD
+conversion ratio by MNR-prpR/ΔglnR was 92.8 ± 2.7% at low nitrogen level, which
+was 1.4 times higher than that of MNR.
+CONCLUSION: Improvement in phytosterol biotransformation after the enhancement of
+propionyl-CoA metabolism through the combined modifications of the prp operon and
+glnR of mycobacteria was investigated for the first time. The overexpress of prpR
+in MNR can increase the transcription of essential genes (prpC, prpD and prpB) of
+MCC, reduce the intracellular propionyl-CoA level and improve bacterial
+viability. The knockout of glnR can enhance the adaptability of MNR to the
+nitrogen source. In the MNRΔglnR strain, overexpress of prpR can achieve
+efficient production of AD at low nitrogen levels, thus reducing the production
+cost. This strategy provides a reference for the economic and effective
+production of other valuable steroid metabolites from phytosterol in the
+pharmaceutical industry.
+
+DOI: 10.1186/s12934-020-1285-8 
+PMCID: PMC6986058
+PMID: 31992309  [Indexed for MEDLINE]
+
+
+13. Molecules. 2019 Oct 22;24(20). pii: E3799. doi: 10.3390/molecules24203799.
+
+Effects of Organic Acids, Amino Acids and Phenolic Compounds on Antioxidant
+Characteristic of Zhenjiang Aromatic Vinegar.
+
+Zhang B(1), Xia T(2), Duan W(3), Zhang Z(4), Li Y(5), Fang B(6), Xia M(7), Wang
+M(8).
+
+Author information: 
+(1)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, College of Biotechnology, Tianjin
+University of Science and Technology, Tianjin 300222, China. bozhango@163.com.
+(2)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, College of Biotechnology, Tianjin
+University of Science and Technology, Tianjin 300222, China.
+xiatingsyu@foxmail.com.
+(3)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, College of Biotechnology, Tianjin
+University of Science and Technology, Tianjin 300222, China. duanwhyy@163.com.
+(4)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, College of Biotechnology, Tianjin
+University of Science and Technology, Tianjin 300222, China. yzhujunz@126.com.
+(5)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, College of Biotechnology, Tianjin
+University of Science and Technology, Tianjin 300222, China. liyu962366@163.com.
+(6)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, College of Biotechnology, Tianjin
+University of Science and Technology, Tianjin 300222, China.
+ab1772850431@163.com.
+(7)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, College of Biotechnology, Tianjin
+University of Science and Technology, Tianjin 300222, China. mlxia@tust.edu.cn.
+(8)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, College of Biotechnology, Tianjin
+University of Science and Technology, Tianjin 300222, China. minw@tust.edu.cn.
+
+Zhenjiang aromatic vinegar (ZAV) is one of the famous Chinese vinegars, which
+contains various physicochemical and bioactive compositions. In the present
+study, physicochemical properties and total antioxidant activity were detected in
+ZAV samples. The correlation between of organic acids, amino acids, phenolic
+compounds, and the antioxidant activity of ZAV were explored. The results showed 
+that contents of total acids, soluble solids, reducing sugar and total
+antioxidant activity in ZAV were increased with aging time, and those in ZAV-5
+were the highest. Organic acids and amino acids exhibited weak antioxidant
+activity, while phenolic compounds had higher antioxidant ability. In addition,
+amino acids had synergistic effect on the antioxidant activity of phenolic
+compounds, whereas organic acids inhibited the antioxidant activity of phenolic
+compounds. Moreover, it was found that phenolic compounds including catechin,
+vanillic acid and syringic acid showed higher contribution rates to antioxidant
+activities of mixed phenolic compounds. In conclusion, these findings would
+provide references to control the antioxidant characteristic of vinegar through
+regulating the main compositions, and further improve the quality of vinegar
+production.
+
+DOI: 10.3390/molecules24203799 
+PMCID: PMC6832349
+PMID: 31652563  [Indexed for MEDLINE]
+
+
+14. Bioresour Technol. 2019 Oct;290:121750. doi: 10.1016/j.biortech.2019.121750. Epub
+2019 Jul 9.
+
+Economical production of androstenedione and 9α-hydroxyandrostenedione using
+untreated cane molasses by recombinant mycobacteria.
+
+Zhou X(1), Zhang Y(2), Shen Y(3), Zhang X(1), Zhang Z(1), Xu S(1), Luo J(1), Xia 
+M(1), Wang M(4).
+
+Author information: 
+(1)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin 300457, China.
+(2)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin 300457, China; College of
+Life Science, Liaocheng University, Liaocheng, Shandong 252059, China. Electronic
+address: zhy@lcu.edu.cn.
+(3)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin 300457, China; Tianjin
+Engineering Research Center of Microbial Metabolism and Fermentation Process
+Control, 300457 Tianjin, China.
+(4)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin 300457, China; Tianjin
+Engineering Research Center of Microbial Metabolism and Fermentation Process
+Control, 300457 Tianjin, China. Electronic address: minw@tust.edu.cn.
+
+Production of androstenedione (AD) and 9α-hydroxyandrostenedione (9α-OH-AD) by
+recombinant mycobacteria using untreated cane molasses and hydrolysate of
+mycobacterial cells (HMC) was investigated for the first time. B-vitamins feeding
+experiment and reverse transcription-PCR analysis showed that propionyl-CoA
+carboxylase (PCC) plays an important role in the phytosterol biotransformation of
+mycobacteria. The respective AD and 9α-OH-AD conversion ratios were increased by 
+2.91 and 1.48 times through coexpression of PCC and NADH dehydrogenase. The
+highest conversion ratios of AD and 9α-OH-AD obtained by using a co-feeding
+strategy of cane molasses and HMC reached 96.38% and 95.04%, respectively, and
+the total costs of carbon and nitrogen sources for the culture medium were
+reduced by 29.89% and 49.49%, respectively. Taking the results together,
+untreated cane molasses and HMC can be used for the economical production of
+steroidal pharmaceutical precursors by mycobacteria. This study offers an
+economical and green strategy for steroidal pharmaceutical precursor production.
+
+Copyright © 2019 Elsevier Ltd. All rights reserved.
+
+DOI: 10.1016/j.biortech.2019.121750 
+PMID: 31325842  [Indexed for MEDLINE]
+
+
+15. Bioresour Technol. 2019 Jul;283:242-250. doi: 10.1016/j.biortech.2019.03.058.
+Epub 2019 Mar 11.
+
+A highly efficient step-wise biotransformation strategy for direct conversion of 
+phytosterol to boldenone.
+
+Tang R(1), Shen Y(2), Xia M(1), Tu L(1), Luo J(1), Geng Y(1), Gao T(1), Zhou
+H(1), Zhao Y(1), Wang M(3).
+
+Author information: 
+(1)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin 300457, China.
+(2)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin 300457, China; Tianjin
+Engineering Research Center of Microbial Metabolism and Fermentation Process
+Control, 300457 Tianjin, China.
+(3)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin 300457, China; Tianjin
+Engineering Research Center of Microbial Metabolism and Fermentation Process
+Control, 300457 Tianjin, China. Electronic address: minw@tust.edu.cn.
+
+Collaborative microbial communities are ubiquitous in nature and exhibit
+appealing functions for enhanced production of natural products, which provides
+new possibility for biotechnology development. In this study, we bridged
+Mycobacterium neoaurum with Pichia pastoris to establish a step-wise
+biotransformation strategy for efficient biosynthesis of boldenone (BD) from
+phytosterol (PS). Firstly, the producing strains were rationally designed with
+overexpression of 3-ketosteroid-Δ1-dehydrogenase (KsdD) and 17β-hydroxysteroid
+dehydrogenase (17βHSD) in M. neoaurum and P. pastoris, respectively. Then, to
+shorten the total biotransformation process and provide reducing power,
+semi-batch fermentation strategy and glucose supplementation strategy were
+introduced at side-chain degradation stage and carbonyl reduction stage,
+respectively. Under the optimal transformation conditions, the productivity of BD
+was increased from 10% to 76% and the total biotransformation process was
+shortened by 41.7%, which is the shortest among the ever reported. Our results
+demonstrated an excellent biological strategy for production of many other
+valuable microbial products from bioresources.
+
+Copyright © 2019 Elsevier Ltd. All rights reserved.
+
+DOI: 10.1016/j.biortech.2019.03.058 
+PMID: 30913432  [Indexed for MEDLINE]
+
+
+16. Bioresour Technol. 2019 May;279:209-217. doi: 10.1016/j.biortech.2019.01.144.
+Epub 2019 Jan 31.
+
+Efficient production of androstenedione by repeated batch fermentation in waste
+cooking oil media through regulating NAD+/NADH ratio and strengthening cell
+vitality of Mycobacterium neoaurum.
+
+Zhou X(1), Zhang Y(2), Shen Y(3), Zhang X(1), Xu S(1), Shang Z(1), Xia M(1), Wang
+M(4).
+
+Author information: 
+(1)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin 300457, China.
+(2)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin 300457, China; College of
+Life Science, Liaocheng University, Liaocheng, Shandong 252059, China.
+(3)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin 300457, China; Tianjin
+Engineering Research Center of Microbial Metabolism and Fermentation Process
+Control, Tianjin 300457, China. Electronic address: shenyb@tust.edu.cn.
+(4)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+Tianjin Key Laboratory of Industrial Microbiology, College of Biotechnology,
+Tianjin University of Science & Technology, Tianjin 300457, China; Tianjin
+Engineering Research Center of Microbial Metabolism and Fermentation Process
+Control, Tianjin 300457, China. Electronic address: minw@tust.edu.cn.
+
+The bioprocess for producing androstenedione (AD) from phytosterols by using
+Mycobacterium neoaurum is hindered by nicotinamide adenine dinucleotides (NAD+
+and NADH) ratio imbalance, insoluble substrate, and lengthy biotransformation
+period. This study aims to improve the efficiency of AD production through a
+combined application of cofactor, solvent, and fermentation engineering
+technologies. Through the enhanced type II NADH dehydrogenase (NDH-II), the
+NAD+/NADH ratio and ATP levels increased; the release of reactive oxygen species 
+decreased by 42.32%, and the cell viability improved by 54.17%. In
+surfactant-waste cooking oil-water media, the conversion of phytosterol increased
+from 23.92% to 94.98%. Repeated batch culture successfully reduced the
+biotransformation period from 30 to 17 days, the productivity was 13.75 times
+more than the parent strain. This study is the first to improve the productivity 
+of AD by enhancing NDH-II and provides a new strategy to increase the
+accumulation of NAD+-dependent metabolites during biotransformation.
+
+Copyright © 2019 Elsevier Ltd. All rights reserved.
+
+DOI: 10.1016/j.biortech.2019.01.144 
+PMID: 30735930  [Indexed for MEDLINE]
+
+
+17. J Food Sci. 2018 Oct;83(10):2638-2644. doi: 10.1111/1750-3841.14356.
+
+Evaluation of Nutritional Compositions, Bioactive Compounds, and Antioxidant
+Activities of Shanxi Aged Vinegars During the Aging Process.
+
+Xia T(1), Yao J(1), Zhang J(1), Duan W(1), Zhang B(1), Xie X(1), Xia M(1), Song
+J(1), Zheng Y(1), Wang M(1).
+
+Author information: 
+(1)State Key Laboratory of Food Nutrition and Safety, Key Laboratory of
+Industrial Fermentation Microbiology, Ministry of Education, Tianjin Engineering 
+Research Center of Microbial Metabolism and Fermentation Process Control, College
+of Biotechnology, Tianjin Univ. of Science and Technology, Tianjin, P.R. China.
+
+Shanxi aged vinegar (SAV) is known as famous fermented food in China. During the 
+brewing process, a large number of nutritional substances and bioactive compounds
+are produced, which have beneficial effects on human body. In this study, the
+contents of nutritional compositions including proteins, fats, carbohydrates,
+organic acids, and amino acids were determined in SAV samples. The antioxidant
+compounds and properties of SAV with different aging time were also evaluated.
+The results showed that the contents of proteins, crude fats, and carbohydrates
+in SAV were not changed with the aging time. Moreover, Alanine was the main
+component of amino acids in SAV, and the total contents of amino acids were
+increased with the aging time. Acetic acid and lactic acid were the predominant
+organic acids in SAV. The contents of acetic acid and lactic acid accounted for
+more than 90% of the total organic acids in SAV, which were increased during the 
+aging process of 5 years. Furthermore, total phenols, flavonoids contents, and
+browning index in SAV were also increased during the aging time. These
+antioxidant compounds showed a high correlation with the antioxidant activities
+of SAV measured by ferric reducing antioxidant power and
+2,2'-azino-bis(3-ethylbenzthi azoline-6-sulfonic acid) assays. The contribution
+of polyphenolic fractions and high molecular weight melanoidins to total
+antioxidant activities was similar (about 49% and 48%, respectively). Our
+findings would provide new insights to further explore the development of new
+vinegar-based functional foods.PRACTICAL APPLICATION: The analysis of nutritional
+compositions, bioactive compounds, and antioxidant capacities in vinegars
+provides a theoretical basis for the function of SAV. It also provides references
+for further explore the development of new-type functional and healthy vinegars.
+
+© 2018 Institute of Food Technologists®.
+
+DOI: 10.1111/1750-3841.14356 
+PMID: 30300464  [Indexed for MEDLINE]
+
+
+18. J Ind Microbiol Biotechnol. 2018 Oct;45(10):857-867. doi:
+10.1007/s10295-018-2063-z. Epub 2018 Aug 2.
+
+Overexpression of cytochrome p450 125 in Mycobacterium: a rational strategy in
+the promotion of phytosterol biotransformation.
+
+Su L(1), Shen Y(2), Xia M(1), Shang Z(1), Xu S(1), An X(1), Wang M(3).
+
+Author information: 
+(1)Key Laboratory of Industrial Fermentation Microbiology (Tianjin University of 
+Science and Technology), Ministry of Education, Tianjin Key Laboratory of
+Industrial Microbiology, Tianjin Engineering Research Center of Microbial
+Metabolism and Fermentation Process Control, College of Biotechnology, Tianjin
+University of Science and Technology, Tianjin, 300457, People's Republic of
+China.
+(2)Key Laboratory of Industrial Fermentation Microbiology (Tianjin University of 
+Science and Technology), Ministry of Education, Tianjin Key Laboratory of
+Industrial Microbiology, Tianjin Engineering Research Center of Microbial
+Metabolism and Fermentation Process Control, College of Biotechnology, Tianjin
+University of Science and Technology, Tianjin, 300457, People's Republic of
+China. shenyb@tust.edu.cn.
+(3)Key Laboratory of Industrial Fermentation Microbiology (Tianjin University of 
+Science and Technology), Ministry of Education, Tianjin Key Laboratory of
+Industrial Microbiology, Tianjin Engineering Research Center of Microbial
+Metabolism and Fermentation Process Control, College of Biotechnology, Tianjin
+University of Science and Technology, Tianjin, 300457, People's Republic of
+China. minw@tust.edu.cn.
+
+Androst-4-ene-3, 17-dione (AD) and androst-1, 4-diene-3, 17-dione (ADD) are
+generally produced by the biotransformation of phytosterols in Mycobacterium. The
+AD (D) production increases when the strain has high NAD+/NADH ratio. To enhance 
+the AD (D) production in Mycobacterium neoaurum TCCC 11978 (MNR M3), a rational
+strategy was developed through overexpression of a gene involved in the
+phytosterol degradation pathway; NAD+ was generated as well. Proteomic analysis
+of MNR cultured with and without phytosterols showed that the steroid
+C27-monooxygenase (Cyp125-3), which performs sequential oxidations of the sterol 
+side chain at the C27 position and has the oxidative cofactor of NAD+ generated, 
+played an important role in the phytosterol biotransformation process of MNR M3. 
+To improve the productivity of AD (D), the cyp125-3 gene was overexpressed in MNR
+M3. The specific activity of Cyp125-3 in the recombinant strain MNR M3C3 was
+improved by 22% than that in MNR M3. The NAD+/NADH ratio in MNR M3C3 was 131%
+higher than that in the parent strain. During phytosterol biotransformation, the 
+conversion of sterols increased from 84 to 96%, and the yield of AD (D) by MNR
+M3C3 was increased by approximately 18% for 96 h fermentation. This rational
+strain modification strategy may also be applied to develop strains with
+important application values for efficient production of cofactor-dependent
+metabolites.
+
+DOI: 10.1007/s10295-018-2063-z 
+PMID: 30073539  [Indexed for MEDLINE]
+
+
+19. Appl Microbiol Biotechnol. 2018 Mar;102(6):2645-2658. doi:
+10.1007/s00253-017-8733-3. Epub 2018 Feb 11.
+
+Succession sequence of lactic acid bacteria driven by environmental factors and
+substrates throughout the brewing process of Shanxi aged vinegar.
+
+Zheng Y(1), Mou J(1), Niu J(1), Yang S(1), Chen L(1), Xia M(1), Wang M(2).
+
+Author information: 
+(1)State Key Laboratory of Food Nutrition and Safety. Key Laboratory of
+Industrial Fermentation Microbiology, Ministry of Education. College of
+Biotechnology, Tianjin University of Science & Technology, Tianjin, 300457,
+People's Republic of China.
+(2)State Key Laboratory of Food Nutrition and Safety. Key Laboratory of
+Industrial Fermentation Microbiology, Ministry of Education. College of
+Biotechnology, Tianjin University of Science & Technology, Tianjin, 300457,
+People's Republic of China. minw@tust.edu.cn.
+
+Lactic acid bacteria (LAB) are essential microbiota for the fermentation and
+flavor formation of Shanxi aged vinegar, a famous Chinese traditional cereal
+vinegar that is manufactured using open solid-state fermentation (SSF)
+technology. However, the dynamics of LAB in this SSF process and the underlying
+mechanism remain poorly understood. Here, the diversity of LAB and the potential 
+driving factors of the entire process were analyzed by combining
+culture-independent and culture-dependent methods. Canonical correlation analysis
+indicated that ethanol, acetic acid, and temperature that result from the
+metabolism of microorganisms serve as potential driving factors for LAB
+succession. LAB strains were periodically isolated, and the characteristics of 57
+isolates on environmental factor tolerance and substrate utilization were
+analyzed to understand the succession sequence. The environmental tolerance of
+LAB from different stages was in accordance with their fermentation conditions.
+Remarkable correlations were identified between LAB growth and environmental
+factors with 0.866 of ethanol (70 g/L), 0.756 of acetic acid (10 g/L), and 0.803 
+of temperature (47 °C). More gentle or harsh environments (less or more than 60
+or 80 g/L of ethanol, 5 or 20 g/L of acetic acid, and 30 or 55 °C temperature)
+did not affect the LAB succession. The utilization capability evaluation of the
+57 isolates for 95 compounds proved that strains from different fermentation
+stages exhibited different predilections on substrates to contribute to the
+fermentation at different stages. Results demonstrated that LAB succession in the
+SSF process was driven by the capabilities of environmental tolerance and
+substrate utilization.
+
+DOI: 10.1007/s00253-017-8733-3 
+PMID: 29430584  [Indexed for MEDLINE]
+
+
+20. Sci Rep. 2017 Aug 23;7(1):9240. doi: 10.1038/s41598-017-09850-6.
+
+Unraveling the correlation between microbiota succession and metabolite changes
+in traditional Shanxi aged vinegar.
+
+Nie Z(1)(2), Zheng Y(1), Xie S(1), Zhang X(1), Song J(1), Xia M(1), Wang M(3).
+
+Author information: 
+(1)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+College of Biotechnology, Tianjin University of Science and Technology, Tianjin, 
+300457, P. R. China.
+(2)Key Laboratory of Chemical Biology and Molecular Engineering, Ministry of
+Education, Institute of Biotechnology, Shanxi University, Taiyuan, 030006, P. R. 
+China.
+(3)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+College of Biotechnology, Tianjin University of Science and Technology, Tianjin, 
+300457, P. R. China. minw@tust.edu.cn.
+
+Shanxi aged vinegar (SAV) is a well-known vinegar produced by traditional
+solid-state fermentation and has been used in China for thousands of years.
+However, how microorganisms and their metabolites change along with fermentation 
+is unclear. Here, 454 high-throughput sequencing and denaturing gradient gel
+electrophoresis were used to investigate the composition of microbial community. 
+Metabolites were further analyzed by gas chromatography-mass spectrometry and
+high-performance liquid chromatography. Results showed that the composition of
+bacterial community changed dramatically at different stages of fermentation. The
+bacterial genera (relative abundance > 0.1%) decreased from 17 in daqu (starter
+used in starch saccharification) to 2 at the 12th day of alcohol fernemtation
+(AF). 15 bacterial genera at the 1st day of acetic acid fermentation (AAF)
+decreased to 4 genera, involving Acetobacter (50.9%), Lactobacillus (47.9%),
+Komagataeibacter (formerly Gluconacetobacter, 0.7%) and Propionibacterium (0.1%) 
+at the 7th day of AAF. The structure of fungal community was more homogeneous.
+Saccharomyces and Saccharomycopsis were predominant in AF and AAF. A total of 87 
+kinds of nonvolatile metabolites were detected. Canonical correspondence analysis
+showed a significant correlation between the microbiota succession and the
+formation of metabolites during the fermentation of SAV. This study provides
+detailed information for the fermentation mechanism of traditional SAV.
+
+DOI: 10.1038/s41598-017-09850-6 
+PMCID: PMC5569029
+PMID: 28835624  [Indexed for MEDLINE]
+
+
+21. Appl Microbiol Biotechnol. 2017 Sep;101(18):7007-7016. doi:
+10.1007/s00253-017-8453-8. Epub 2017 Aug 2.
+
+Acetobacter pasteurianus metabolic change induced by initial acetic acid to adapt
+to acetic acid fermentation conditions.
+
+Zheng Y(1), Zhang R(1), Yin H(1), Bai X(1), Chang Y(1), Xia M(1), Wang M(2).
+
+Author information: 
+(1)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+College of Biotechnology, Tianjin University of Science and Technology, Tianjin, 
+300457, People's Republic of China.
+(2)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+College of Biotechnology, Tianjin University of Science and Technology, Tianjin, 
+300457, People's Republic of China. minw@tust.edu.cn.
+
+Initial acetic acid can improve the ethanol oxidation rate of acetic acid
+bacteria for acetic acid fermentation. In this work, Acetobacter pasteurianus was
+cultured in ethanol-free medium, and energy production was found to increase by
+150% through glucose consumption induced by initial acetic acid. However,
+oxidation of ethanol, instead of glucose, became the main energy production
+pathway when upon culturing ethanol containing medium. Proteome assay was used to
+analyze the metabolism change induced by initial acetic acid, which provided
+insight into carbon metabolic and energy regulation of A. pasteurianus to adapt
+to acetic acid fermentation conditions. Results were further confirmed by
+quantitative real-time PCR. In summary, decreased intracellular ATP as a result
+of initial acetic acid inhibition improved the energy metabolism to produce more 
+energy and thus adapt to the acetic acid fermentation conditions. A. pasteurianus
+upregulated the expression of enzymes related to TCA and ethanol oxidation to
+improve the energy metabolism pathway upon the addition of initial acetic acid.
+However, enzymes involved in the pentose phosphate pathway, the main pathway of
+glucose metabolism, were downregulated to induce a change in carbon metabolism.
+Additionally, the enhancement of alcohol dehydrogenase expression promoted
+ethanol oxidation and strengthened the acetification rate, thereby producing a
+strong proton motive force that was necessary for energy production and cell
+tolerance to acetic acid.
+
+DOI: 10.1007/s00253-017-8453-8 
+PMID: 28770302  [Indexed for MEDLINE]
+
+
+22. Microb Cell Fact. 2017 Jun 15;16(1):109. doi: 10.1186/s12934-017-0717-6.
+
+Effect of aspartic acid and glutamate on metabolism and acid stress resistance of
+Acetobacter pasteurianus.
+
+Yin H(1)(2), Zhang R(1), Xia M(1), Bai X(1), Mou J(1), Zheng Y(1), Wang M(3).
+
+Author information: 
+(1)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+College of Biotechnology, Tianjin University of Science & Technology, Tianjin,
+300457, People's Republic of China.
+(2)School of Bioengineering, Tianjin Modern Vocational Technology College,
+Tianjin, 300350, People's Republic of China.
+(3)Key Laboratory of Industrial Fermentation Microbiology, Ministry of Education,
+College of Biotechnology, Tianjin University of Science & Technology, Tianjin,
+300457, People's Republic of China. minw@tust.edu.cn.
+
+BACKGROUND: Acetic acid bacteria (AAB) are widely applied in food, bioengineering
+and medicine fields. However, the acid stress at low pH conditions limits acetic 
+acid fermentation efficiency and high concentration of vinegar production with
+AAB. Therefore, how to enhance resistance ability of the AAB remains as the major
+challenge. Amino acids play an important role in cell growth and cell survival
+under severe environment. However, until now the effects of amino acids on acetic
+fermentation and acid stress resistance of AAB have not been fully studied.
+RESULTS: In the present work the effects of amino acids on metabolism and acid
+stress resistance of Acetobacter pasteurianus were investigated. Cell growth,
+culturable cell counts, acetic acid production, acetic acid production rate and
+specific production rate of acetic acid of A. pasteurianus revealed an increase
+of 1.04, 5.43, 1.45, 3.30 and 0.79-folds by adding aspartic acid (Asp), and cell 
+growth, culturable cell counts, acetic acid production and acetic acid production
+rate revealed an increase of 0.51, 0.72, 0.60 and 0.94-folds by adding glutamate 
+(Glu), respectively. For a fully understanding of the biological mechanism,
+proteomic technology was carried out. The results showed that the strengthening
+mechanism mainly came from the following four aspects: (1) Enhancing the
+generation of pentose phosphates and NADPH for the synthesis of nucleic acid,
+fatty acids and glutathione (GSH) throughout pentose phosphate pathway. And GSH
+could protect bacteria from low pH, halide, oxidative stress and osmotic stress
+by maintaining the viability of cells through intracellular redox equilibrium;
+(2) Reinforcing deamination of amino acids to increase intracellular ammonia
+concentration to maintain stability of intracellular pH; (3) Enhancing nucleic
+acid synthesis and reparation of impaired DNA caused by acid stress damage; (4)
+Promoting unsaturated fatty acids synthesis and lipid transport, which resulted
+in the improvement of cytomembrane fluidity, stability and integrity.
+CONCLUSIONS: The present work is the study to show the effectiveness of Asp and
+Glu on metabolism and acid stress resistance of A. pasteurianus as well as their 
+working mechanism. The research results will be helpful for development of
+nutrient salts, the optimization and regulation of high concentration of cider
+vinegar production process.
+
+DOI: 10.1186/s12934-017-0717-6 
+PMCID: PMC5472864
+PMID: 28619110  [Indexed for MEDLINE]
+
+
+23. Bioresour Technol. 2015 Nov;196:263-72. doi: 10.1016/j.biortech.2015.07.104. Epub
+2015 Aug 1.
+
+Activation of glycerol metabolic pathway by evolutionary engineering of Rhizopus 
+oryzae to strengthen the fumaric acid biosynthesis from crude glycerol.
+
+Huang D(1), Wang R(2), Du W(3), Wang G(3), Xia M(4).
+
+Author information: 
+(1)TEDA Institute of Biological Sciences and Biotechnology, Nankai University,
+TEDA, Tianjin 300457, PR China; Key Laboratory of Molecular Microbiology and
+Technology, Ministry of Education, Tianjin 300071, PR China; Tianjin Key
+Laboratory of Microbial Functional Genomics, Tianjin 300457, PR China. Electronic
+address: huangdi@nankai.edu.cn.
+(2)TEDA Institute of Biological Sciences and Biotechnology, Nankai University,
+TEDA, Tianjin 300457, PR China; Key Laboratory of Molecular Microbiology and
+Technology, Ministry of Education, Tianjin 300071, PR China.
+(3)Key Laboratory of System Bioengineering, Ministry of Education, Tianjin
+University, Tianjin 300072, PR China.
+(4)State Key Laboratory of Biochemical Engineering, Institute of Process
+Engineering, Chinese Academy of Sciences, Beijing 100190, PR China; University of
+Chinese Academy of Sciences, Beijing 100039, PR China.
+
+Rhizopus oryzae is strictly inhibited by biodiesel-based by-product crude
+glycerol, which results in low fumaric acid production. In this study,
+evolutionary engineering was employed to activate the glycerol utilization
+pathway for fumaric acid production. An evolved strain G80 was selected, which
+could tolerate and utilize high concentrations of crude glycerol to produce
+14.9g/L fumaric acid with a yield of 0.248g/g glycerol. Key enzymes activity
+analysis revealed that the evolved strain displayed a significant upregulation in
+glycerol dissimilation, pyruvate consumption and reductive tricarboxylic acid
+pathways, compared with the parent strain. Subsequently, intracellular metabolic 
+profiling analysis showed that amino acid biosynthesis, tricarboxylic acid cycle,
+fatty acid and stress response metabolites accounted for metabolic difference
+between two strains. Moreover, a glycerol fed-batch strategy was optimized to
+obtain the highest fumaric acid production of 25.5g/L, significantly increased by
+20.9-fold than that of the parent strain of 1.2g/L.
+
+Copyright © 2015 Elsevier Ltd. All rights reserved.
+
+DOI: 10.1016/j.biortech.2015.07.104 
+PMID: 26253910  [Indexed for MEDLINE]
+
+
+24. Sheng Wu Gong Cheng Xue Bao. 2014 May;30(5):716-25.
+
+[Application of process engineering to remove lignocellulose fermentation
+inhibitors].
+
+[Article in Chinese]
+
+Wang L, Xia M, Chen H.
+
+Fermentation inhibitors are toxic to cells, which is one of the bottlenecks for
+lignocellulose bio-refinery process. How to remove those inhibitors serves a key 
+role in the bioconversion of lignocellulose. This article reviews the sources and
+the types of the inhibitors, especially the updated removal strategies including 
+physical methods, chemical methods, biological methods and inhibitor-tolerant
+strain construction strategies. Based on these, we introduce a new bio-refinery
+model named "fractional conversion", which reduces the production of inhibitors
+at pretreatment stage, and a novel in situ detoxification method named
+"fermentation promoter exploitation technology". This review could provide new
+research ideas on the removal of fermentation inhibitors.
+
+
+PMID: 25118395  [Indexed for MEDLINE]
+
+
+25. J Ind Microbiol Biotechnol. 2014 Jul;41(7):1131-43. doi:
+10.1007/s10295-014-1450-3. Epub 2014 May 1.
+
+Improved FK506 production by the precursors and product-tolerant mutant of
+Streptomyces tsukubaensis based on genome shuffling and dynamic fed-batch
+strategies.
+
+Du W(1), Huang D, Xia M, Wen J, Huang M.
+
+Author information: 
+(1)Department of Biological Engineering, School of Chemical Engineering and
+Technology, Tianjin University, Tianjin, 300072, People's Republic of China.
+
+FK506, a secondary metabolite produced by Streptomyces tsukubaensis, is well
+known for its immunosuppressant properties to prevent rejection of transplanted
+organs and treat autoimmune diseases. However, the low titer of FK506 in the
+original producer strain limits the further industrialization efforts and
+restricts its clinical applications. To address this issue, a highly efficient
+method combined genome shuffling and dynamic fed-batch strategies was
+systematically performed in this work. Firstly, after five rounds of genome
+shuffling based on precursors and product resistances, a higher yielding strain
+TJ-P325 was successfully acquired, whose production reached 365.6 mg/L, 11-fold
+increase compared with the original strain. Then, the possible mechanism of
+different production capabilities between TJ-P325 and the wild type was explored 
+through comparative gene expression analysis of key genes. Results showed that
+the transcription level of key genes was altered significantly in the mutant.
+Moreover, precursors addition enhanced the FK506 production by 28 %, as well as
+reduced the by-products biosynthesis. Finally, the disodium malonate and disodium
+methylmalonate dynamic fed-batch strategies dramatically led to the production of
+514.5 mg/L in a 7.5-L bioreactor. These results demonstrated that genome
+shuffling and dynamic fed-batch strategies could be successfully applied to
+generate high-yield strains with value-added natural products during industrial
+microbial fermentation.
+
+DOI: 10.1007/s10295-014-1450-3 
+PMID: 24788378  [Indexed for MEDLINE]
+
+
+26. PLoS One. 2014 Apr 4;9(4):e93815. doi: 10.1371/journal.pone.0093815. eCollection 
+2014.
+
+Model-driven redox pathway manipulation for improved isobutanol production in
+Bacillus subtilis complemented with experimental validation and metabolic
+profiling analysis.
+
+Qi H(1), Li S(1), Zhao S(1), Huang D(1), Xia M(1), Wen J(2).
+
+Author information: 
+(1)Key Laboratory of System Bioengineering, Ministry of Education, Tianjin
+University, Tianjin, People's Republic of China; Department of Biochemical
+Engineering, School of Chemical Engineering and Technology, Tianjin University,
+Tianjin, People's Republic of China.
+(2)Key Laboratory of System Bioengineering, Ministry of Education, Tianjin
+University, Tianjin, People's Republic of China; Department of Biochemical
+Engineering, School of Chemical Engineering and Technology, Tianjin University,
+Tianjin, People's Republic of China; Collaborative Innovation Center of Chemical 
+Science and Engineering, Tianjin, People's Republic of China.
+
+To rationally guide the improvement of isobutanol production, metabolic network
+and metabolic profiling analysis were performed to provide global and profound
+insights into cell metabolism of isobutanol-producing Bacillus subtilis. The
+metabolic flux distribution of strains with different isobutanol production
+capacity (BSUL03, BSUL04 and BSUL05) drops a hint of the importance of NADPH on
+isobutanol biosynthesis. Therefore, the redox pathways were redesigned in this
+study. To increase NADPH concentration, glucose-6-phosphate isomerase was
+inactivated (BSUL06) and glucose-6-phosphate dehydrogenase was overexpressed
+(BSUL07) successively. As expected, NADPH pool size in BSUL07 was 4.4-fold higher
+than that in parental strain BSUL05. However, cell growth, isobutanol yield and
+production were decreased by 46%, 22%, and 80%, respectively. Metabolic profiling
+analysis suggested that the severely imbalanced redox status might be the primary
+reason. To solve this problem, gene udhA of Escherichia coli encoding
+transhydrogenase was further overexpressed (BSUL08), which not only well balanced
+the cellular ratio of NAD(P)H/NAD(P)+, but also increased NADH and ATP
+concentration. In addition, a straightforward engineering approach for improving 
+NADPH concentrations was employed in BSUL05 by overexpressing exogenous gene
+pntAB and obtained BSUL09. The performance for isobutanol production by BSUL09
+was poorer than BSUL08 but better than other engineered strains. Furthermore, in 
+fed-batch fermentation the isobutanol production and yield of BSUL08 increased by
+11% and 19%, up to the value of 6.12 g/L and 0.37 C-mol isobutanol/C-mol glucose 
+(63% of the theoretical value), respectively, compared with parental strain
+BSUL05. These results demonstrated that model-driven complemented with metabolic 
+profiling analysis could serve as a useful approach in the strain improvement for
+higher bio-productivity in further application.
+
+DOI: 10.1371/journal.pone.0093815 
+PMCID: PMC3976320
+PMID: 24705866  [Indexed for MEDLINE]
+
+
+27. World J Microbiol Biotechnol. 2014 Jul;30(7):1969-76. doi:
+10.1007/s11274-014-1619-y. Epub 2014 Feb 9.
+
+Promotion of the Clostridium acetobutylicum ATCC 824 growth and
+acetone-butanol-ethanol fermentation by flavonoids.
+
+Wang L(1), Xia M, Zhang L, Chen H.
+
+Author information: 
+(1)State Key Laboratory of Biochemical Engineering, Institute of Process
+Engineering, Chinese Academy of Sciences, Beijing, 100190, China.
+
+An unexpected promotion effect of Ginkgo leaf on the growth of Clostridium
+acetobutylicum ATCC 824 and acetone-butanol-ethanol (ABE) fermentation was
+investigated. Component analysis of Ginkgo leaf was carried out and flavonoids
+were determined as the potential key metabolites. Then the flavonoids feeding
+experiments were carried out. Results showed that addition of only 10 mg/L
+flavonoids to the fermentation broth can promote butanol and ABE titre up to 14.5
+and 17.8 g/L after 5 days of fermentation, that is, 74 and 68% higher than the
+control. A 2.2-fold biomass also has been achieved. Furthermore, by employing
+such novel founding, we easily exploited flavonoids from soybean and some
+agriculture wastes as the wide-distributed and economic feasible ABE fermentation
+promoter. The mechanism of the above effects was investigated from the
+perspective of oxidation-reduction potential. This work opens a new way in the
+efforts to increase the titer of butanol.
+
+DOI: 10.1007/s11274-014-1619-y 
+PMID: 24510404  [Indexed for MEDLINE]
+
+
+28. J Ind Microbiol Biotechnol. 2013 Sep;40(9):1023-37. doi:
+10.1007/s10295-013-1301-7. Epub 2013 Jun 19.
+
+Enhancement of FK506 production by engineering secondary pathways of Streptomyces
+tsukubaensis and exogenous feeding strategies.
+
+Huang D(1), Xia M, Li S, Wen J, Jia X.
+
+Author information: 
+(1)Department of Biochemical Engineering, School of Chemical Engineering and
+Technology, Tianjin University, Tianjin, 300072, People's Republic of China.
+
+FK506 is a clinically important macrocyclic polyketide with immunosuppressive
+activity produced by Streptomyces tsukubaensis. However, the low titer at which
+it is produced is a bottleneck to its application and use in industrial
+processes. We have overexpressed five potential targets associated with FK506
+production (fkbO, fkbL, fkbP, fkbM, fkbD) which were identified in our previous
+study, with the aim to improve FK506 production. The results of the analysis
+showed that the constructed strains with an additional copy of each gene
+increased FK506 production by approximately 10-40 % compared with the wild-type
+strain D852. The results of the gene expression analysis indicated that each gene
+was upregulated. Combinatorial overexpression of the five genes resulted in a 146
+% increase in the FK506 titer to 353.2 mg/L, in comparison with the titer
+produced by D852. To further improve the production of FK506 by the engineered
+strain HT-FKBOPLMD, we supplemented the medium with various nutrients, including 
+soybean oil, lactate, succinate, shikimate, chorismate, lysine, pipecolate,
+isoleucine and valine. Optimization of feeding concentrations and times resulted 
+in HT-FKBOPLMD being able to produce approximately 70 % more FK506, thereby
+reaching the maximal titer of 457.5 mg/L, with lower amounts of by-products
+(FK520 and 37,38-dihydro-FK506). These results demonstrate that the combination
+of the metabolically engineered secondary pathways and the exogenous feeding
+strategies developed here was able to be successfully applied to improve the
+production of industrially and clinically important compounds.
+
+DOI: 10.1007/s10295-013-1301-7 
+PMID: 23779221  [Indexed for MEDLINE]
+
+
+29. Microb Cell Fact. 2013 May 24;12:52. doi: 10.1186/1475-2859-12-52.
+
+Genome-scale metabolic network guided engineering of Streptomyces tsukubaensis
+for FK506 production improvement.
+
+Huang D(1), Li S, Xia M, Wen J, Jia X.
+
+Author information: 
+(1)Department of Biochemical Engineering, School of Chemical Engineering and
+Technology, Tianjin University, Tianjin 300072, PR China.
+
+BACKGROUND: FK506 is an important immunosuppressant, which can be produced by
+Streptomyces tsukubaensis. However, the production capacity of the strain is very
+low. Hereby, a computational guided engineering approach was proposed in order to
+improve the intracellular precursor and cofactor availability of FK506 in S.
+tsukubaensis.
+RESULTS: First, a genome-scale metabolic model of S. tsukubaensis was constructed
+based on its annotated genome and biochemical information. Subsequently, several 
+potential genetic targets (knockout or overexpression) that guaranteed an
+improved yield of FK506 were identified by the recently developed methodology. To
+validate the model predictions, each target gene was manipulated in the parent
+strain D852, respectively. All the engineered strains showed a higher FK506
+production, compared with D852. Furthermore, the combined effect of the genetic
+modifications was evaluated. Results showed that the strain HT-ΔGDH-DAZ with
+gdhA-deletion and dahp-, accA2-, zwf2-overexpression enhanced FK506 concentration
+up to 398.9 mg/L, compared with 143.5 mg/L of the parent strain D852. Finally,
+fed-batch fermentations of HT-ΔGDH-DAZ were carried out, which led to the FK506
+production of 435.9 mg/L, 1.47-fold higher than the parent strain D852 (158.7
+mg/L).
+CONCLUSIONS: Results confirmed that the promising targets led to an increase in
+FK506 titer. The present work is the first attempt to engineer the primary
+precursor pathways to improve FK506 production in S. tsukubaensis with
+genome-scale metabolic network guided metabolic engineering. The relationship
+between model prediction and experimental results demonstrates the rationality
+and validity of this approach for target identification. This strategy can also
+be applied to the improvement of other important secondary metabolites.
+
+DOI: 10.1186/1475-2859-12-52 
+PMCID: PMC3680238
+PMID: 23705993  [Indexed for MEDLINE]
+
+
+30. Biotechnol Bioeng. 2013 Oct;110(10):2717-30. doi: 10.1002/bit.24941. Epub 2013
+May 16.
+
+Enhanced FK506 production in Streptomyces tsukubaensis by rational feeding
+strategies based on comparative metabolic profiling analysis.
+
+Xia M(1), Huang D, Li S, Wen J, Jia X, Chen Y.
+
+Author information: 
+(1)Department of Biological Engineering, School of Chemical Engineering and
+Technology, Tianjin University, Tianjin 300072, PR China.
+
+FK506, a widely used immunosuppressant, is produced by industrial fermentation
+processes using various Streptomyces species. However, the low titer becomes a
+bottleneck for its application and industrialization. It urgently required a full
+understanding of the biological mechanisms for FK506 overproduction. Towards this
+end, comparative metabolomics approach was employed to analyze metabolite
+concentrations difference of Streptomyces tsukubaensis cultivated in two media
+with low and high productivities. Initially, 98 intracellular metabolites were
+identified and 13 metabolites involved in five pathways were determined to be
+directly correlated with FK506 biosynthesis. Then in-depth analysis elucidated
+how those key factors exerted influence on FK506 biosynthesis. Many previously
+unreported metabolites were shown to play an important role in FK506 biosynthesis
+and provided potential regulation points for external manipulation. Based on such
+key information, rationally designed feeding strategy was carried out. Results
+showed that the FK506 yield increased from 251 to 405 mg/L, whereas, by-products 
+FK520 and 37,38-dihydro-FK506 decreased by 31% and 39%, respectively, compared
+with the values of control. To our knowledge, it is the first study to apply the 
+comparative metabolomics method to identify key metabolites to promote the FK506 
+production. The strategies developed here can easily be extended to titer
+improvement of other important microbial natural products and process
+optimization.
+
+Copyright © 2013 Wiley Periodicals, Inc.
+
+DOI: 10.1002/bit.24941 
+PMID: 23682004  [Indexed for MEDLINE]
+

@@ -5,7 +5,12 @@
    :maxdepth: 2
 
    Class_1/index.rst
+   Class_2/index.rst
    exam.rst
+
+
+
+
 
 
 
